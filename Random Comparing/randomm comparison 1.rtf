@@ -1,0 +1,643 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red215\green0\blue143;\red31\green32\blue41;\red225\green226\blue231;
+\red37\green144\blue141;\red69\green187\blue62;\red20\green156\blue146;\red211\green35\blue46;\red34\green160\blue85;
+}
+{\*\expandedcolortbl;;\csgenericrgb\c84398\c0\c55980;\csgenericrgb\c12157\c12549\c16078;\csgenericrgb\c88217\c88535\c90427;
+\csgenericrgb\c14440\c56530\c55465;\csgenericrgb\c26985\c73392\c24249;\csgenericrgb\c7843\c61177\c57255;\csgenericrgb\c82745\c13725\c18039;\csgenericrgb\c13472\c62889\c33229;
+}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab593
+\pard\tx593\pardeftab593\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 class\cf4  ThermodynamicsFugacityThreeComponentMixtureEOSViewController: \cf5 UIViewController\cf4  \{
+\f1 \cf0 \
+
+\f0 \cf4     
+\f1 \cf0 \
+
+\f0 \cf4         
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 @IBOutlet\cf4  \cf2 weak\cf4  \cf2 var\cf4  menuButtonFromPengRob: \cf5 UIBarButtonItem\cf4 !
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 @IBOutlet\cf4  \cf2 weak\cf4  \cf2 var\cf4  logButtonFromPengRob: \cf5 UIBarButtonItem\cf4 !
+\f1 \cf0 \
+
+\f0 \cf4         
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 @IBOutlet\cf4  \cf2 weak\cf4  \cf2 var\cf4  myTextField1: \cf5 UITextField\cf4 ! \cf6 // reduced temperature
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 @IBOutlet\cf4  \cf2 weak\cf4  \cf2 var\cf4  myTextField2: \cf5 UITextField\cf4 ! \cf6 // reduced pressure
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 @IBOutlet\cf4  \cf2 weak\cf4  \cf2 var\cf4  myTextField3: \cf5 UITextField\cf4 ! \cf6 // accentric factor
+\f1 \cf0 \
+
+\f0 \cf4         
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 @IBOutlet\cf4  \cf2 weak\cf4  \cf2 var\cf4  myLabel1: \cf5 UILabel\cf4 !
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 @IBOutlet\cf4  \cf2 weak\cf4  \cf2 var\cf4  myLabel2: \cf5 UILabel\cf4 !
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 @IBOutlet\cf4  \cf2 weak\cf4  \cf2 var\cf4  myLabel3: \cf5 UILabel\cf4 !
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 @IBOutlet\cf4  \cf2 weak\cf4  \cf2 var\cf4  myLabel4: \cf5 UILabel\cf4 !
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 @IBOutlet\cf4  \cf2 weak\cf4  \cf2 var\cf4  myLabel5: \cf5 UILabel\cf4 !
+\f1 \cf0 \
+
+\f0 \cf4         
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 override\cf4  \cf2 func\cf4  viewDidLoad() \{
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 super\cf4 .viewDidLoad()
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 // -----
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 let\cf4  label = UILabel(frame: CGRect(x:\cf7 0\cf4 , y:\cf7 0\cf4 , width:\cf7 400\cf4 , height:\cf7 50\cf4 ))
+\f1 \cf0 \
+
+\f0 \cf4             label.backgroundColor = .white
+\f1 \cf0 \
+
+\f0 \cf4             label.numberOfLines = \cf7 2
+\f1 \cf0 \
+
+\f0 \cf4             label.font = UIFont.boldSystemFont(ofSize: \cf7 16.0\cf4 )
+\f1 \cf0 \
+
+\f0 \cf4             label.textAlignment = .center
+\f1 \cf0 \
+
+\f0 \cf4             label.textColor = .black
+\f1 \cf0 \
+
+\f0 \cf4             label.text = \cf8 "Peng-Robinson EoS\\n(Vapor and Vapor-Like)"
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 self\cf4 .navigationItem.titleView = label
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 // -----
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 //  self.title = "Peng-Robinson EoS Vapor|Vapor-Like"
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 //        myLabel1.isHidden = true
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 //        myLabel2.isHidden = true
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 //        myLabel3.isHidden = true
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 //        myLabel4.isHidden = true
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 //        myLabel5.text = "Peng-Robinson \\n (VaporandVapor-Like)"
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 // Do any additional setup after loading the view, typically from a nib.
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 // ########### Menu (Tutorial) (3) ###############
+\f1 \cf0 \
+
+\f0 \cf4             sideMenus()
+\f1 \cf0 \
+
+\f0 \cf4             customizeNavBar()
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 // ########### Menu (Tutorial) (3) ###############
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4         \}
+\f1 \cf0 \
+
+\f0 \cf4         
+\f1 \cf0 \
+
+\f0 \cf4         
+\f1 \cf0 \
+
+\f0 \cf4         
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 @IBAction\cf4  \cf2 func\cf4  myButton1(\cf2 _\cf4  sender: \cf2 Any\cf4 ) \{
+\f1 \cf0 \
+
+\f0 \cf4             \cf6 // buttons must be set to ACTION when you create them AMP 11182017
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4             myLabel1.isHidden = \cf2 false
+\f1 \cf0 \
+
+\f0 \cf4             myLabel2.isHidden = \cf2 false
+\f1 \cf0 \
+
+\f0 \cf4             myLabel3.isHidden = \cf2 false
+\f1 \cf0 \
+
+\f0 \cf4             myLabel4.isHidden = \cf2 false
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 let\cf4  firstValue = Double(myTextField1.text!) \cf6 // reduced temperature
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 let\cf4  secondValue = Double(myTextField2.text!) \cf6 // reduced pressure
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 let\cf4  thirdValue = Double(myTextField3.text!) \cf6 // accentric factor
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 let\cf4  BIGomega = \cf7 0.07780
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 let\cf4  psi = \cf7 0.45724
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 let\cf4  sigma = \cf7 2.414213562373095
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 let\cf4  epsilon = \cf7 -0.41421356237
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 if\cf4  firstValue != \cf2 nil\cf4  && secondValue != \cf2 nil\cf4  && thirdValue != \cf2 nil\cf4  \{
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4                 \cf9 \cb3 /////////////////alpha calculation//////////
+\f1 \cf0 \cb3 \
+
+\f0 \cf4                 \cf2 let\cf4  constant14 = Double(pow(thirdValue!, \cf7 2\cf4 ))
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  constant15 = Double(\cf7 0.37464\cf4  + \cf7 1.54226\cf4 *thirdValue! - \cf7 0.26992\cf4 *constant14)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  constant16 = Double(pow(firstValue!, \cf7 0.5\cf4 ))
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  constant17 = Double(\cf7 1\cf4  - constant16)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  constant18 = Double(constant15 * constant17)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  constant19 = Double(\cf7 1\cf4  + constant18)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  alphaOutputValue = Double(pow(constant19, \cf7 2\cf4 ))
+\f1 \cf0 \
+
+\f0 \cf4                 \cf9 \cb3 ////////////////end alpha calculation//////////
+\f1 \cf0 \cb3 \
+
+\f0 \cf4                 \cf9 \cb3 /////////////////beta calculation//////////
+\f1 \cf0 \cb3 \
+
+\f0 \cf4                 \cf2 let\cf4  betaOutputValue = Double(BIGomega * secondValue! / firstValue!)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf9 \cb3 ////////////////end beta calculation//////////
+\f1 \cf0 \cb3 \
+
+\f0 \cf4                 \cf9 \cb3 /////////////////q calculation//////////
+\f1 \cf0 \cb3 \
+
+\f0 \cf4                 \cf2 let\cf4  qOutputValue = Double(psi * alphaOutputValue / BIGomega / firstValue!)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf9 \cb3 ////////////////end q calculation//////////
+\f1 \cf0 \cb3 \
+
+\f0 \cf4                 \cf9 \cb3 //////////////Z iteration/calculation//////
+\f1 \cf0 \cb3 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4                 \cf6 // ATTEMPT 1 shivangdave website ~example
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  ziterconstant1 = Double(epsilon * sigma * betaOutputValue * betaOutputValue)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  ziterconstant2 = Double(sigma * betaOutputValue * betaOutputValue)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  ziterconstant3 = Double(epsilon * betaOutputValue * betaOutputValue)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  ziterconstant4 = Double(ziterconstant1 + ziterconstant2 + ziterconstant3)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  ziterconstant5 = Double(\cf7 2.0\cf4  * betaOutputValue)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  ziterconstant6 = Double(sigma * betaOutputValue)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  ziterconstant7 = Double(epsilon * betaOutputValue)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf6 // let ziterconstant8 = Double(sigma * betaOutputValue + epsilon * betaOutputValue)
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 let\cf4  ziterconstant9 = Double(qOutputValue * betaOutputValue)
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+\
+
+\f0 \cf4                 \cf2 var\cf4  rootArray = [Double]()
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 var\cf4  fvalueArray = [Double]()
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 var\cf4  fdvalueArray = [Double]()
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 var\cf4  solved = \cf2 false
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 if\cf4  !solved
+\f1 \cf0 \
+
+\f0 \cf4                 \{
+\f1 \cf0 \
+
+\f0 \cf4                     \cf6 // for i in stride(from: 0.0, to: 1.0, by: 0.000000001)
+\f1 \cf0 \
+
+\f0 \cf4                     \cf2 for\cf4  i \cf2 in\cf4  \cf7 0\cf4 ...\cf7 10\cf4  \cf6 //not sure exactly why, but "for i in 0...10" yields the same (I think same) as  "for i in 0...200"
+\f1 \cf0 \
+
+\f0 \cf4                     \{
+\f1 \cf0 \
+
+\f0 \cf4                         \cf2 var\cf4  firstX = Double(\cf7 1\cf4 ) \cf6 //INITIAL GUESS
+\f1 \cf0 \
+
+\f0 \cf4                         \cf2 var\cf4  baseValue = Double()
+\f1 \cf0 \
+
+\f0 \cf4                         \cf2 var\cf4  derValue = Double()
+\f1 \cf0 \
+
+\f0 \cf4                         \cf6 //                        var i = Double()
+\f1 \cf0 \
+
+\f0 \cf4                         \cf2 if\cf4  i == \cf7 0
+\f1 \cf0 \
+
+\f0 \cf4                             
+\f1 \cf0 \
+
+\f0 \cf4                         \{
+\f1 \cf0 \
+
+\f0 \cf4                             
+\f1 \cf0 \
+
+\f0 \cf4                             \cf6 // Peng Rob. vapor and vapor like set to zero
+\f1 \cf0 \
+
+\f0 \cf4                             baseValue = -firstX + \cf7 1.0\cf4  + betaOutputValue - ziterconstant9 * ((firstX - betaOutputValue) / (firstX * firstX + firstX * ziterconstant6 + firstX * ziterconstant7 + ziterconstant1))
+\f1 \cf0 \
+
+\f0 \cf4                             
+\f1 \cf0 \
+
+\f0 \cf4                             \cf6 // derivative of Peng Rob. vapor and vapor like set to zero
+\f1 \cf0 \
+
+\f0 \cf4                             derValue = -ziterconstant9 * (\cf7 -1.0\cf4  * firstX * firstX + firstX * ziterconstant5 + ziterconstant4) / (firstX * firstX + firstX * ziterconstant6 + firstX * ziterconstant7 + ziterconstant1) / (firstX * firstX + firstX * ziterconstant6 + firstX * ziterconstant7 + ziterconstant1) - \cf7 1.0
+\f1 \cf0 \
+
+\f0 \cf4                             
+\f1 \cf0 \
+
+\f0 \cf4                             rootArray.append(firstX)
+\f1 \cf0 \
+
+\f0 \cf4                             fvalueArray.append(baseValue)
+\f1 \cf0 \
+
+\f0 \cf4                             fdvalueArray.append(derValue)
+\f1 \cf0 \
+
+\f0 \cf4                         \}
+\f1 \cf0 \
+
+\f0 \cf4                         \cf2 else
+\f1 \cf0 \
+
+\f0 \cf4                         \{
+\f1 \cf0 \
+
+\f0 \cf4                             firstX = rootArray[i-\cf7 1\cf4 ] - fvalueArray[i-\cf7 1\cf4 ] / fdvalueArray[i-\cf7 1\cf4 ]
+\f1 \cf0 \
+
+\f0 \cf4                             
+\f1 \cf0 \
+
+\f0 \cf4                             \cf6 // 2of2         Peng Rob. equation set to zero
+\f1 \cf0 \
+
+\f0 \cf4                             baseValue = -firstX + \cf7 1.0\cf4  + betaOutputValue - ziterconstant9 * ((firstX - betaOutputValue) / (firstX * firstX + firstX * ziterconstant6 + firstX * ziterconstant7 + ziterconstant1))
+\f1 \cf0 \
+
+\f0 \cf4                             
+\f1 \cf0 \
+
+\f0 \cf4                             \cf6 // derivative of Peng Rob. set to zero
+\f1 \cf0 \
+
+\f0 \cf4                             derValue = -ziterconstant9 * (\cf7 -1.0\cf4  * firstX * firstX + firstX * ziterconstant5 + ziterconstant4) / (firstX * firstX + firstX * ziterconstant6 + firstX * ziterconstant7 + ziterconstant1) / (firstX * firstX + firstX * ziterconstant6 + firstX * ziterconstant7 + ziterconstant1) - \cf7 1.0
+\f1 \cf0 \
+
+\f0 \cf4                             
+\f1 \cf0 \
+
+\f0 \cf4                             rootArray.append(firstX)
+\f1 \cf0 \
+
+\f0 \cf4                             fvalueArray.append(baseValue)
+\f1 \cf0 \
+
+\f0 \cf4                             fdvalueArray.append(derValue)
+\f1 \cf0 \
+
+\f0 \cf4                             
+\f1 \cf0 \
+
+\f0 \cf4                             \cf6 //print(fdvalueArray)
+\f1 \cf0 \
+
+\f0 \cf4                             
+\f1 \cf0 \
+
+\f0 \cf4                             \cf6 //                                if Double(format:"%0.4f",fdvalueArray[i]) == Double(format:"%0.4f",fdvalueArray[i-1])
+\f1 \cf0 \
+
+\f0 \cf4                             \cf6 //I changed 0.4f to 0.9f in the code below, not sure exactly what it does. I thought it changed the amount of decimal places
+\f1 \cf0 \
+
+\f0 \cf4                             
+\f1 \cf0 \
+
+\f0 \cf4                             \cf2 if\cf4  String(format:\cf8 "%0.4f"\cf4 ,fdvalueArray[i]) == String(format:\cf8 "%0.4f"\cf4 ,fdvalueArray[i-\cf7 1\cf4 ])
+\f1 \cf0 \
+
+\f0 \cf4                             \{
+\f1 \cf0 \
+
+\f0 \cf4                                 print(\cf8 "solved after \cf4 \\\cf8 (\cf4 i\cf8 )th iteration"\cf4 )
+\f1 \cf0 \
+
+\f0 \cf4                                 
+\f1 \cf0 \
+
+\f0 \cf4                                 
+\f1 \cf0 \
+
+\f0 \cf4                                 print(\cf8 "Root is: \cf4 \\\cf8 (\cf4 rootArray[i]\cf8 )"\cf4 )
+\f1 \cf0 \
+
+\f0 \cf4                                 \cf6 //                              calc()
+\f1 \cf0 \
+
+\f0 \cf4                                 \cf6 //                                var zOutputValue = rootArray[i]
+\f1 \cf0 \
+
+\f0 \cf4                                 solved = \cf2 true
+\f1 \cf0 \
+
+\f0 \cf4                                 \cf2 break
+\f1 \cf0 \
+
+\f0 \cf4                                 
+\f1 \cf0 \
+
+\f0 \cf4                             \}
+\f1 \cf0 \
+
+\f0 \cf4                             myLabel4.text = \cf8 "Compressibility Factor = \cf4 \\\cf8 (\cf4 rootArray[i]\cf8 )"
+\f1 \cf0 \
+
+\f0 \cf4                             
+\f1 \cf0 \
+
+\f0 \cf4                         \}
+\f1 \cf0 \
+
+\f0 \cf4                         
+\f1 \cf0 \
+
+\f0 \cf4                     \}
+\f1 \cf0 \
+
+\f0 \cf4                     \cf2 self\cf4 .view.endEditing(\cf2 true\cf4 ) \cf6 //makes keypad disappear after calculate button is pressed
+\f1 \cf0 \
+
+\f0 \cf4                 \}
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4                 \cf6 // ################################################
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4                 myLabel1.text = \cf8 "\uc0\u945  = \cf4 \\\cf8 (\cf4 alphaOutputValue\cf8 )"
+\f1 \cf0 \
+
+\f0 \cf4                 myLabel2.text = \cf8 "\uc0\u946  = \cf4 \\\cf8 (\cf4 betaOutputValue\cf8 )"
+\f1 \cf0 \
+
+\f0 \cf4                 myLabel3.text = \cf8 "q = \cf4 \\\cf8 (\cf4 qOutputValue\cf8 )"
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4             \}\cf2 else\cf4 \{
+\f1 \cf0 \
+
+\f0 \cf4                 myLabel1.text = \cf8 "Hey! Enter a number!"
+\f1 \cf0 \
+
+\f0 \cf4                 myLabel2.text = \cf8 "Hey! Enter a number!"
+\f1 \cf0 \
+
+\f0 \cf4                 myLabel3.text = \cf8 "Hey! Enter a number!"
+\f1 \cf0 \
+
+\f0 \cf4                 myLabel4.text = \cf8 "Hey! Enter a number!"
+\f1 \cf0 \
+
+\f0 \cf4                 \cf2 self\cf4 .view.endEditing(\cf2 true\cf4 ) \cf6 //makes keypad disappear after calculate button is pressed
+\f1 \cf0 \
+
+\f0 \cf4             \}
+\f1 \cf0 \
+
+\f0 \cf4         \}
+\f1 \cf0 \
+
+\f0 \cf4         
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 func\cf4  sideMenus() \{
+\f1 \cf0 \
+
+\f0 \cf4             \cf2 if\cf4  revealViewController() != \cf2 nil\cf4 \{
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4                 menuButtonFromPengRob.target = revealViewController()
+\f1 \cf0 \
+
+\f0 \cf4                 menuButtonFromPengRob.action = \cf2 #selector\cf4 (SWRevealViewController.revealToggle(\cf2 _\cf4 :))
+\f1 \cf0 \
+
+\f0 \cf4                 revealViewController().rearViewRevealWidth = \cf7 275
+\f1 \cf0 \
+
+\f0 \cf4                 revealViewController().rightViewRevealWidth = \cf7 160
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4                 logButtonFromPengRob.target = revealViewController()
+\f1 \cf0 \
+
+\f0 \cf4                 logButtonFromPengRob.action = \cf2 #selector\cf4 (SWRevealViewController.rightRevealToggle(\cf2 _\cf4 :))
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4                 view.addGestureRecognizer(\cf2 self\cf4 .revealViewController().panGestureRecognizer())
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4                 
+\f1 \cf0 \
+
+\f0 \cf4             \}
+\f1 \cf0 \
+
+\f0 \cf4         \}
+\f1 \cf0 \
+
+\f0 \cf4         
+\f1 \cf0 \
+
+\f0 \cf4         \cf6 // ------- Might be a edundant section (need too look up how to acccess func from a sidifferent class e.g. sideMenus() -------------
+\f1 \cf0 \
+
+\f0 \cf4         \cf2 func\cf4  customizeNavBar() \{
+\f1 \cf0 \
+
+\f0 \cf4             navigationController?.navigationBar.tintColor = .black \cf6 //UIColor(colorLiteralRed: 0/255, green: 0/255, blue: 0/255, alpha: 1) Note, tintColor for navigation bar changes the back symbol button ~
+\f1 \cf0 \
+
+\f0 \cf4             navigationController?.navigationBar.barTintColor = .white \cf6 //UIColor(colorLiteralRed: 0/255, green: 0/255, blue: 0/255, alpha: 1)
+\f1 \cf0 \
+
+\f0 \cf4             navigationController?.navigationBar.isTranslucent = \cf2 true\cf4  \cf6 // changing to "true", instead of "false" fixed the invisible space under navigation bar. It made the space go away.
+\f1 \cf0 \
+
+\f0 \cf4             navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+\f1 \cf0 \
+
+\f0 \cf4             
+\f1 \cf0 \
+
+\f0 \cf4         \}
+\f1 \cf0 \
+
+\f0 \cf4         \cf6 // ------------------------------
+\f1 \cf0 \
+
+\f0 \cf4         
+\f1 \cf0 \
+
+\f0 \cf4 \}
+\f1 \cf0 \
+}

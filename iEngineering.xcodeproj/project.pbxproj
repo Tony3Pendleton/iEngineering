@@ -1,0 +1,1994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B040C4820F29DF000ED5298 /* SearchEngineeringDisciplineAerospaceChemistryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B040C4720F29DF000ED5298 /* SearchEngineeringDisciplineAerospaceChemistryViewController.swift */; };
+		4B0909D52068F4F60025A770 /* SearchVariablesThermodynamicsSubFugacityTernaryPureCompenentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0909D42068F4F60025A770 /* SearchVariablesThermodynamicsSubFugacityTernaryPureCompenentsViewController.swift */; };
+		4B17A15C2127BE9E00046820 /* SearchEngineeringDisciplineChemistryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17A15B2127BE9E00046820 /* SearchEngineeringDisciplineChemistryViewController.swift */; };
+		4B17A15E2127BF5D00046820 /* SearchEngineeringDisciplineChemistryGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17A15D2127BF5D00046820 /* SearchEngineeringDisciplineChemistryGeneralViewController.swift */; };
+		4B1B254321D98DAA00C4844C /* myCircularButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B254221D98DAA00C4844C /* myCircularButtons.swift */; };
+		4B1BF16E23387C8A0017CD8B /* iEngineering.app in Resources */ = {isa = PBXBuildFile; fileRef = EA960E261FC14BE500E46F03 /* iEngineering.app */; };
+		4B21AAF8206E1C6100997C6C /* SearchVariablesThermodynamicsSubFugacityBinaryPureCompenentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AAF7206E1C6100997C6C /* SearchVariablesThermodynamicsSubFugacityBinaryPureCompenentsViewController.swift */; };
+		4B21AB00206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixturePengRobinsonVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AAFC206E234900997C6C /* ThermodynamicsFugacityTwoComponentMixturePengRobinsonVaporEOSViewController.swift */; };
+		4B21AB01206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureTwoTermVirialVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AAFD206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureTwoTermVirialVaporEOSViewController.swift */; };
+		4B21AB02206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AAFE206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift */; };
+		4B21AB03206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureRedlichKwongVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AAFF206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureRedlichKwongVaporEOSViewController.swift */; };
+		4B21AB08206F423000997C6C /* ThermodynamicsFugacityPureComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AB04206F422C00997C6C /* ThermodynamicsFugacityPureComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift */; };
+		4B21AB09206F423100997C6C /* ThermodynamicsFugacityPureComponentMixturePengRobinsonVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AB05206F422C00997C6C /* ThermodynamicsFugacityPureComponentMixturePengRobinsonVaporEOSViewController.swift */; };
+		4B21AB0A206F423100997C6C /* ThermodynamicsFugacityPureComponentMixtureTwoTermVirialVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AB06206F422E00997C6C /* ThermodynamicsFugacityPureComponentMixtureTwoTermVirialVaporEOSViewController.swift */; };
+		4B21AB0B206F423100997C6C /* ThermodynamicsFugacityPureComponentMixtureRedlichKwongVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AB07206F422F00997C6C /* ThermodynamicsFugacityPureComponentMixtureRedlichKwongVaporEOSViewController.swift */; };
+		4B21AB0D206F42C800997C6C /* SearchVariablesThermodynamicsSubFugacityPureCompenentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AB0C206F42C800997C6C /* SearchVariablesThermodynamicsSubFugacityPureCompenentsViewController.swift */; };
+		4B21AB12206F6AEF00997C6C /* SearchEngineeringDisciplineCivilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AB11206F6AEE00997C6C /* SearchEngineeringDisciplineCivilViewController.swift */; };
+		4B21AB14206F6AFA00997C6C /* SearchEngineeringDisciplineElectricalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AB13206F6AF900997C6C /* SearchEngineeringDisciplineElectricalViewController.swift */; };
+		4B21AB16206F6B0400997C6C /* SearchEngineeringDisciplineMechanicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21AB15206F6B0300997C6C /* SearchEngineeringDisciplineMechanicalViewController.swift */; };
+		4B29143220C0D98500F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29143120C0D98400F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift */; };
+		4B29143420C1006200F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29143320C1006100F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift */; };
+		4B29143620C1109100F56F37 /* ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_VolumetricFlowRate_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29143520C1109100F56F37 /* ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_VolumetricFlowRate_ViewController.swift */; };
+		4B29143820C1383C00F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORFinalPressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29143720C1383B00F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORFinalPressureViewController.swift */; };
+		4B29143A20C2269100F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORInitialPressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29143920C2268D00F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORInitialPressureViewController.swift */; };
+		4B2A646520FB30FC00763A25 /* SearchEngineeringDisciplineElectricalCircuitComponentsResistorBandNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A646420FB30FC00763A25 /* SearchEngineeringDisciplineElectricalCircuitComponentsResistorBandNumberViewController.swift */; };
+		4B2A646820FB334100763A25 /* ElectricalEngineeringCircuitComponentsResistorValueCalculator5ColorBandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A646620FB333E00763A25 /* ElectricalEngineeringCircuitComponentsResistorValueCalculator5ColorBandViewController.swift */; };
+		4B2A646920FB334100763A25 /* ElectricalEngineeringCircuitComponentsResistorValueCalculator6ColorBandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A646720FB333F00763A25 /* ElectricalEngineeringCircuitComponentsResistorValueCalculator6ColorBandViewController.swift */; };
+		4B2CC47D20A78C5C0019F510 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2CC47C20A78C5A0019F510 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumeViewController.swift */; };
+		4B32117B2338572A00B527A5 /* MyProgrammaticallyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32117A2338572A00B527A5 /* MyProgrammaticallyTableViewController.m */; };
+		4B32117D2338580B00B527A5 /* refactoredMechanical_generalEquations_Circuits_storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B32117C2338580B00B527A5 /* refactoredMechanical_generalEquations_Circuits_storyboard.storyboard */; };
+		4B39754A20B7C8CC00EC3818 /* SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricGasPhaseVARIABLEStoSOLVEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39754920B7C8CB00EC3818 /* SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricGasPhaseVARIABLEStoSOLVEViewController.swift */; };
+		4B39754C20B7C8D700EC3818 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39754B20B7C8D700EC3818 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORConversionViewController.swift */; };
+		4B4264012067524400570B47 /* SearchVariablesFluidMechanicsGoToDiameterLaminarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263F02067524100570B47 /* SearchVariablesFluidMechanicsGoToDiameterLaminarViewController.swift */; };
+		4B4264032067524400570B47 /* SearchVariablesFluidMechanicsGoToVelocityCompressibleGasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263F22067524100570B47 /* SearchVariablesFluidMechanicsGoToVelocityCompressibleGasViewController.swift */; };
+		4B4264042067524400570B47 /* SearchVariablesFluidMechanicsGoToPressureDropLaminarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263F32067524100570B47 /* SearchVariablesFluidMechanicsGoToPressureDropLaminarViewController.swift */; };
+		4B4264052067524400570B47 /* SearchVariablesFluidMechanicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263F42067524100570B47 /* SearchVariablesFluidMechanicsViewController.swift */; };
+		4B4264062067524400570B47 /* SearchVariablesFluidMechanicsGoToReynoldsNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263F52067524200570B47 /* SearchVariablesFluidMechanicsGoToReynoldsNumberViewController.swift */; };
+		4B4264072067524400570B47 /* SearchVariablesFluidMechanicsGoToHeadLossTurbulentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263F62067524200570B47 /* SearchVariablesFluidMechanicsGoToHeadLossTurbulentViewController.swift */; };
+		4B4264082067524400570B47 /* SearchVariablesFluidMechanicsGoToPressureDropTurbulentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263F72067524200570B47 /* SearchVariablesFluidMechanicsGoToPressureDropTurbulentViewController.swift */; };
+		4B4264092067524400570B47 /* SearchVariablesFluidMechanicsGoToFrictionFactorLaminarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263F82067524200570B47 /* SearchVariablesFluidMechanicsGoToFrictionFactorLaminarViewController.swift */; };
+		4B42640A2067524400570B47 /* SearchVariablesFluidMechanicsGoToLengthHydrodynamicEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263F92067524200570B47 /* SearchVariablesFluidMechanicsGoToLengthHydrodynamicEntryViewController.swift */; };
+		4B42640B2067524400570B47 /* SearchVariablesFluidMechanicsGoToDiameterTurbulentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263FA2067524200570B47 /* SearchVariablesFluidMechanicsGoToDiameterTurbulentViewController.swift */; };
+		4B42640C2067524400570B47 /* SearchVariablesFluidMechanicsGoToShearStressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263FB2067524300570B47 /* SearchVariablesFluidMechanicsGoToShearStressViewController.swift */; };
+		4B42640D2067524400570B47 /* SearchVariablesFluidMechanicsGoToVolumetricFlowRateTurbulentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263FC2067524300570B47 /* SearchVariablesFluidMechanicsGoToVolumetricFlowRateTurbulentViewController.swift */; };
+		4B42640E2067524400570B47 /* SearchVariablesFluidMechanicsGoToHeadLossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263FD2067524300570B47 /* SearchVariablesFluidMechanicsGoToHeadLossViewController.swift */; };
+		4B42640F2067524400570B47 /* SearchVariablesFluidMechanicsGoToVelocityLaminarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263FE2067524300570B47 /* SearchVariablesFluidMechanicsGoToVelocityLaminarViewController.swift */; };
+		4B4264102067524400570B47 /* SearchVariablesFluidMechanicsGoToFrictionFactorTurbulentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4263FF2067524300570B47 /* SearchVariablesFluidMechanicsGoToFrictionFactorTurbulentViewController.swift */; };
+		4B4264112067524400570B47 /* SearchVariablesFluidMechanicsGoToVolumetricFlowRateLaminarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4264002067524300570B47 /* SearchVariablesFluidMechanicsGoToVolumetricFlowRateLaminarViewController.swift */; };
+		4B426414206753D200570B47 /* SearchVariablesFluidMechanicsRectangularPipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B426413206753D200570B47 /* SearchVariablesFluidMechanicsRectangularPipeViewController.swift */; };
+		4B42641920675F6200570B47 /* SearchVariablesFluidMechanicsRectangularPipeShearStressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42641720675F6200570B47 /* SearchVariablesFluidMechanicsRectangularPipeShearStressViewController.swift */; };
+		4B42641A20675F6200570B47 /* SearchVariablesFluidMechanicsRectangularPipeVelocityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42641820675F6200570B47 /* SearchVariablesFluidMechanicsRectangularPipeVelocityViewController.swift */; };
+		4B42641C206768FE00570B47 /* SearchVariablesFluidMechanicsGoToFrictionalDissipationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42641B206768FD00570B47 /* SearchVariablesFluidMechanicsGoToFrictionalDissipationViewController.swift */; };
+		4B42641E206774F200570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42641D206774F100570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereViewController.swift */; };
+		4B4264252067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereDiameterOfParticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42641F2067764E00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereDiameterOfParticleViewController.swift */; };
+		4B4264262067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereVelocityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4264202067764E00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereVelocityViewController.swift */; };
+		4B4264272067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereReynoldsNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4264212067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereReynoldsNumberViewController.swift */; };
+		4B4264282067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereArchimedesNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4264222067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereArchimedesNumberViewController.swift */; };
+		4B4264292067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereFrictionFactorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4264232067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereFrictionFactorViewController.swift */; };
+		4B42642A2067765000570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereViscosityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4264242067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereViscosityViewController.swift */; };
+		4B46D4FD20662FAC001FB9D3 /* SearchVariablesThermodynamicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B46D4FC20662FAB001FB9D3 /* SearchVariablesThermodynamicsViewController.swift */; };
+		4B46D500206637EC001FB9D3 /* SearchVariablesThermodynamicsCompressibilityFactorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B46D4FF206637EB001FB9D3 /* SearchVariablesThermodynamicsCompressibilityFactorViewController.swift */; };
+		4B46D50B20666570001FB9D3 /* SearchVariablesThermodynamicsEntropyIdealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B46D5042066656B001FB9D3 /* SearchVariablesThermodynamicsEntropyIdealViewController.swift */; };
+		4B46D50D20666570001FB9D3 /* SearchVariablesThermodynamicsTemperatureSaturationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B46D5062066656C001FB9D3 /* SearchVariablesThermodynamicsTemperatureSaturationViewController.swift */; };
+		4B46D50E20666570001FB9D3 /* SearchVariablesThermodynamicsCompositionPhaseFractionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B46D5072066656C001FB9D3 /* SearchVariablesThermodynamicsCompositionPhaseFractionsViewController.swift */; };
+		4B46D50F20666570001FB9D3 /* SearchVariablesThermodynamicsPressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B46D5082066656D001FB9D3 /* SearchVariablesThermodynamicsPressureViewController.swift */; };
+		4B46D51020666570001FB9D3 /* SearchVariablesThermodynamicsPressureSaturationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B46D5092066656E001FB9D3 /* SearchVariablesThermodynamicsPressureSaturationViewController.swift */; };
+		4B46D51120666570001FB9D3 /* SearchVariablesThermodynamicsHeatCapacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B46D50A2066656E001FB9D3 /* SearchVariablesThermodynamicsHeatCapacityViewController.swift */; };
+		4B51FC8C209D85080017AB25 /* SearchChemicalEngineeringReactorDesignCSTR_isothermalORnonisothermal_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51FC8B209D85080017AB25 /* SearchChemicalEngineeringReactorDesignCSTR_isothermalORnonisothermal_ViewController.swift */; };
+		4B51FC8E209D851B0017AB25 /* SearchChemicalEngineeringReactorDesignCSTRisothermal_isobaricORnonisobaric_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51FC8D209D85190017AB25 /* SearchChemicalEngineeringReactorDesignCSTRisothermal_isobaricORnonisobaric_ViewController.swift */; };
+		4B51FC90209D85310017AB25 /* SearchChemicalEngineeringReactorDesignCSTRisothermalisobaric_liquidphaseORgasphase_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51FC8F209D85300017AB25 /* SearchChemicalEngineeringReactorDesignCSTRisothermalisobaric_liquidphaseORgasphase_ViewController.swift */; };
+		4B51FC92209D85A80017AB25 /* SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51FC91209D85A80017AB25 /* SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift */; };
+		4B51FC97209D926B0017AB25 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51FC96209D926B0017AB25 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORConversionViewController.swift */; };
+		4B58B69020C2723C00AD5A8D /* SearchChemicalEngineeringReactorDesignCSTRNONisothermal_isobaricORnonisobaric_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B58B68F20C2723C00AD5A8D /* SearchChemicalEngineeringReactorDesignCSTRNONisothermal_isobaricORnonisobaric_ViewController.swift */; };
+		4B58B69320C2739200AD5A8D /* SearchChemicalEngineeringReactorDesignCSTRNONisothermalNONisobaric_variableDensity_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B58B69220C2739200AD5A8D /* SearchChemicalEngineeringReactorDesignCSTRNONisothermalNONisobaric_variableDensity_ViewController.swift */; };
+		4B58B69620C2743000AD5A8D /* SearchChemicalEngineeringReactorDesignCstrNONIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B58B69520C2743000AD5A8D /* SearchChemicalEngineeringReactorDesignCstrNONIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift */; };
+		4B58B69820C2749200AD5A8D /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B58B69720C2749200AD5A8D /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift */; };
+		4B5938AE206C0EE700FCBDE6 /* ThermodynamicsFugacityThreeComponentMixtureTwoTermVirialVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5938AD206C0EE600FCBDE6 /* ThermodynamicsFugacityThreeComponentMixtureTwoTermVirialVaporEOSViewController.swift */; };
+		4B5938B3206CA68C00FCBDE6 /* SearchEngineeringDisciplineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5938B2206CA68C00FCBDE6 /* SearchEngineeringDisciplineViewController.swift */; };
+		4B5938B6206CAA2B00FCBDE6 /* SearchEngineeringDisciplineChemicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5938B5206CAA2B00FCBDE6 /* SearchEngineeringDisciplineChemicalViewController.swift */; };
+		4B5938B8206CAD8B00FCBDE6 /* SearchChemicalEngineeringSubjectsFluidMechanicsTransportGeometryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5938B7206CAD8A00FCBDE6 /* SearchChemicalEngineeringSubjectsFluidMechanicsTransportGeometryViewController.swift */; };
+		4B5DA5382099888000380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA5372099887F00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesViewController.swift */; };
+		4B5DA53A209989E600380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA539209989E500380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift */; };
+		4B5DA53D2099914B00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA53C2099914A00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift */; };
+		4B5DA5472099A54300380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA5462099A54300380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift */; };
+		4B5DA5492099A5EE00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA5482099A5EE00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift */; };
+		4B5DA54D2099A66200380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA54C2099A66200380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift */; };
+		4B5DA5512099AD5900380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA5502099AD5200380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift */; };
+		4B5DA5532099AE1700380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA5522099AE1600380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift */; };
+		4B5DA5552099AE6E00380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA5542099AE6E00380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift */; };
+		4B5DA5572099AEC800380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA5562099AEC800380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift */; };
+		4B5DA5592099AF1D00380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA5582099AF1C00380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift */; };
+		4B5DA55C2099C5C000380AE7 /* SearchEngineeringDisciplineAerospaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DA55B2099C5C000380AE7 /* SearchEngineeringDisciplineAerospaceViewController.swift */; };
+		4B63195C21D2A328000716AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B63195B21D2A328000716AE /* Main.storyboard */; };
+		4B66BF39209AC74200EEB676 /* SearchEngineeringDisciplineElectricalGeneralEquationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF38209AC74200EEB676 /* SearchEngineeringDisciplineElectricalGeneralEquationsViewController.swift */; };
+		4B66BF3E209AD2EC00EEB676 /* ElectricalEngineeringGeneralEquationsCapacitanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF3D209AD2EB00EEB676 /* ElectricalEngineeringGeneralEquationsCapacitanceViewController.swift */; };
+		4B66BF49209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsPowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF3F209AF9F500EEB676 /* ElectricalEngineeringGeneralEquationsPowerViewController.swift */; };
+		4B66BF4A209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsPeriodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF40209AF9F600EEB676 /* ElectricalEngineeringGeneralEquationsPeriodViewController.swift */; };
+		4B66BF4B209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsCurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF41209AF9F600EEB676 /* ElectricalEngineeringGeneralEquationsCurrentViewController.swift */; };
+		4B66BF4C209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsResistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF42209AF9F600EEB676 /* ElectricalEngineeringGeneralEquationsResistanceViewController.swift */; };
+		4B66BF4D209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsConductanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF43209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsConductanceViewController.swift */; };
+		4B66BF4E209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsImpedanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF44209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsImpedanceViewController.swift */; };
+		4B66BF4F209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsFrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF45209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsFrequencyViewController.swift */; };
+		4B66BF50209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsInductanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF46209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsInductanceViewController.swift */; };
+		4B66BF51209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsChargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF47209AF9F800EEB676 /* ElectricalEngineeringGeneralEquationsChargeViewController.swift */; };
+		4B66BF52209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsVoltageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF48209AF9F800EEB676 /* ElectricalEngineeringGeneralEquationsVoltageViewController.swift */; };
+		4B66BF58209BC80F00EEB676 /* SearchEngineeringDisciplineMechanicalGeneralEquationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF57209BC80E00EEB676 /* SearchEngineeringDisciplineMechanicalGeneralEquationsViewController.swift */; };
+		4B66BF5A209BC87F00EEB676 /* SearchEngineeringDisciplineAerospaceGeneralEquationsCircuitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66BF59209BC87F00EEB676 /* SearchEngineeringDisciplineAerospaceGeneralEquationsCircuitsViewController.swift */; };
+		4B6E18FF20F5C78C000663A7 /* ElectricalEngineeringCircuitComponentsResistorValueCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E18FE20F5C78C000663A7 /* ElectricalEngineeringCircuitComponentsResistorValueCalculatorViewController.swift */; };
+		4B6E190220F5C870000663A7 /* SearchEngineeringDisciplineElectricalCircuitComponentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E190120F5C86F000663A7 /* SearchEngineeringDisciplineElectricalCircuitComponentsViewController.swift */; };
+		4B7CD7C120BD2F980099E3C1 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumetricFlowRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7CD7C020BD2F980099E3C1 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumetricFlowRateViewController.swift */; };
+		4B7CD7C420BD47D10099E3C1 /* SearchEngineeringDisciplineCivilGeneralEquationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7CD7C320BD47D10099E3C1 /* SearchEngineeringDisciplineCivilGeneralEquationsViewController.swift */; };
+		4B7CD7C720BD49460099E3C1 /* CivilEngineeringGeneralEquationsConcentrationDilutionCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7CD7C620BD49460099E3C1 /* CivilEngineeringGeneralEquationsConcentrationDilutionCalculatorViewController.swift */; };
+		4B7CD7CA20BE61D90099E3C1 /* SearchChemicalEngineeringSubjectsGeneralChemistryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7CD7C920BE61D90099E3C1 /* SearchChemicalEngineeringSubjectsGeneralChemistryViewController.swift */; };
+		4B7CD7CF20BF773B0099E3C1 /* SearchChemicalEngineeringReactorDesignCSTRisothermalNONisobaric_variableDensity_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7CD7CE20BF773B0099E3C1 /* SearchChemicalEngineeringReactorDesignCSTRisothermalNONisobaric_variableDensity_ViewController.swift */; };
+		4B7CD7D120BF79460099E3C1 /* SearchChemicalEngineeringReactorDesignCstrIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7CD7D020BF79460099E3C1 /* SearchChemicalEngineeringReactorDesignCstrIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift */; };
+		4B7CD7D320BF7AE80099E3C1 /* ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_Volume_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7CD7D220BF7AE70099E3C1 /* ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_Volume_ViewController.swift */; };
+		4B88E9192096FC9F00EE35DD /* SearchChemicalEngineeringReactorDesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B88E9182096FC9F00EE35DD /* SearchChemicalEngineeringReactorDesignViewController.swift */; };
+		4B8B6CD22068CE490027697E /* ThermodynamicsFugacityThreeComponentMixturePengRobinsonVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B6CD12068CE490027697E /* ThermodynamicsFugacityThreeComponentMixturePengRobinsonVaporEOSViewController.swift */; };
+		4B8C3B8A20F8548A001339C9 /* ElectricalEngineeringCircuitComponentsResistorValueCONSTANTSforCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C3B8920F85489001339C9 /* ElectricalEngineeringCircuitComponentsResistorValueCONSTANTSforCalculatorViewController.swift */; };
+		4B8C3B8C20F87E67001339C9 /* ElectricalEngineeringCircuitComponentsResistorValueCALCULATIONS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C3B8B20F87E66001339C9 /* ElectricalEngineeringCircuitComponentsResistorValueCALCULATIONS.swift */; };
+		4B96900920B80DB000623999 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORrateConstantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96900820B80DAF00623999 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORrateConstantViewController.swift */; };
+		4B96900C20BA76E800623999 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96900B20BA76E700623999 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumeViewController.swift */; };
+		4BA1CBFE2067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsFrictionFactorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1CBF72067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsFrictionFactorViewController.swift */; };
+		4BA1CBFF2067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1CBF82067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsViewController.swift */; };
+		4BA1CC002067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsReynoldsNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1CBF92067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsReynoldsNumberViewController.swift */; };
+		4BA1CC012067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsPressureDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1CBFA2067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsPressureDropViewController.swift */; };
+		4BA1CC022067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsPorosityFractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1CBFB2067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsPorosityFractionViewController.swift */; };
+		4BA1CC032067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsVelocitySuperficialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1CBFC2067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsVelocitySuperficialViewController.swift */; };
+		4BA1CC042067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsDiameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1CBFD2067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsDiameterViewController.swift */; };
+		4BA1CC07206812FD0040C4E0 /* SearchVariablesFluidMechanicsTankEvacuationAndFillingTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1CC05206812FB0040C4E0 /* SearchVariablesFluidMechanicsTankEvacuationAndFillingTimeViewController.swift */; };
+		4BA1CC08206812FD0040C4E0 /* SearchVariablesFluidMechanicsTankEvacuationAndFillingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1CC06206812FC0040C4E0 /* SearchVariablesFluidMechanicsTankEvacuationAndFillingViewController.swift */; };
+		4BAAED2520C4A07200051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAED2420C4A07100051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumeViewController.swift */; };
+		4BAAED2720C4B98B00051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAED2620C4B98B00051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift */; };
+		4BAAED2920C4C0FC00051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumetricFlowRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAED2820C4C0FB00051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumetricFlowRateViewController.swift */; };
+		4BB45C9221D42C8600717604 /* refactoredAerospace_generalEquations_Circuits_storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB45C9121D42C8500717604 /* refactoredAerospace_generalEquations_Circuits_storyboard.storyboard */; };
+		4BB45C9621D4404200717604 /* refactoredElectrical_generalEquations_Circuits_storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB45C9521D4403C00717604 /* refactoredElectrical_generalEquations_Circuits_storyboard.storyboard */; };
+		4BCE16A621D6ECBA007BBF78 /* refactored_calculator_storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE16A521D6ECBA007BBF78 /* refactored_calculator_storyboard.storyboard */; };
+		4BCE16AF21D6ED0A007BBF78 /* calcOperatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE16A721D6ED04007BBF78 /* calcOperatorDelegate.swift */; };
+		4BCE16B021D6ED0A007BBF78 /* CalculatorTapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE16A821D6ED05007BBF78 /* CalculatorTapeViewController.swift */; };
+		4BCE16B121D6ED0A007BBF78 /* instantiatedYellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE16A921D6ED05007BBF78 /* instantiatedYellowViewController.swift */; };
+		4BCE16B221D6ED0A007BBF78 /* myCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE16AA21D6ED06007BBF78 /* myCalculatorViewController.swift */; };
+		4BCE16B321D6ED0A007BBF78 /* instantiatedMagentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE16AB21D6ED07007BBF78 /* instantiatedMagentaViewController.swift */; };
+		4BCE16B421D6ED0A007BBF78 /* instantiatedOrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE16AC21D6ED08007BBF78 /* instantiatedOrangeViewController.swift */; };
+		4BCE16B521D6ED0A007BBF78 /* rootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE16AD21D6ED09007BBF78 /* rootPageViewController.swift */; };
+		4BCE16B621D6ED0A007BBF78 /* instantiatedCyanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE16AE21D6ED0A007BBF78 /* instantiatedCyanViewController.swift */; };
+		4BCE16B821D6EEA9007BBF78 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE16B721D6EEA9007BBF78 /* UIButtonExtension.swift */; };
+		4BD4B46420A7EF1C00397201 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORRateConstantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4B46320A7EF1C00397201 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORRateConstantViewController.swift */; };
+		4BD4B46720A7F51B00397201 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumetricFlowRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4B46620A7F51A00397201 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumetricFlowRateViewController.swift */; };
+		4BD4B46E20A7FD3F00397201 /* SearchChemicalEngineeringReactorDesignPFR_isothermalORnonisothermal_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4B46D20A7FD3F00397201 /* SearchChemicalEngineeringReactorDesignPFR_isothermalORnonisothermal_ViewController.swift */; };
+		4BD4B47020A7FD4F00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermal_isobaricORnonisobaric_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4B46F20A7FD4E00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermal_isobaricORnonisobaric_ViewController.swift */; };
+		4BD4B47220A7FD5D00397201 /* SearchChemicalEngineeringReactorDesignPFRnonisothermalisobaric_liquidphaseORgasphase_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4B47120A7FD5C00397201 /* SearchChemicalEngineeringReactorDesignPFRnonisothermalisobaric_liquidphaseORgasphase_ViewController.swift */; };
+		4BD4B47420A7FD6E00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4B47320A7FD6D00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift */; };
+		4BD4B47A20A80DCD00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVariableConversionReactionOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4B47920A80DCC00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVariableConversionReactionOrderViewController.swift */; };
+		4BD73F722082713900F87440 /* SearchVariablesThermodynamicsCompositionMoleFractionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD73F712082713900F87440 /* SearchVariablesThermodynamicsCompositionMoleFractionsViewController.swift */; };
+		4BD73F78208275D200F87440 /* SearchChemicalEngineeringSeparationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD73F77208275D200F87440 /* SearchChemicalEngineeringSeparationsViewController.swift */; };
+		4BD73F7B2082761200F87440 /* SearchChemicalEngineeringSeparationsVaporLiquidEquilibriumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD73F7A2082761200F87440 /* SearchChemicalEngineeringSeparationsVaporLiquidEquilibriumViewController.swift */; };
+		4BE644B2206B1E540028B863 /* ThermodynamicsFugacityThreeComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE644B1206B1E540028B863 /* ThermodynamicsFugacityThreeComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift */; };
+		4BE644B4206B20A10028B863 /* ThermodynamicsFugacityThreeComponentMixtureRedlichKwongVaporEOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE644B3206B20A00028B863 /* ThermodynamicsFugacityThreeComponentMixtureRedlichKwongVaporEOSViewController.swift */; };
+		4BF1C5062088301100FE2E22 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1C5032088301000FE2E22 /* Chart.swift */; };
+		4BF1C5072088301100FE2E22 /* ChartColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1C5042088301100FE2E22 /* ChartColors.swift */; };
+		4BF1C5082088301100FE2E22 /* ChartSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1C5052088301100FE2E22 /* ChartSeries.swift */; };
+		4BF1C50C20883BF000FE2E22 /* BasicChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1C50B20883BEF00FE2E22 /* BasicChartViewController.swift */; };
+		4BF7E9632068C3A600D656C0 /* SearchVariablesThermodynamicsFugacityCoefficientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7E9612068C3A500D656C0 /* SearchVariablesThermodynamicsFugacityCoefficientsViewController.swift */; };
+		4BF7E9642068C3A600D656C0 /* SearchVariablesThermodynamicsFugacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7E9622068C3A600D656C0 /* SearchVariablesThermodynamicsFugacityViewController.swift */; };
+		4BF81DC520ABF18F00B3ABB4 /* ChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseSolveFORConversion_deltaXdeltaV_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF81DC420ABF18E00B3ABB4 /* ChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseSolveFORConversion_deltaXdeltaV_ViewController.swift */; };
+		A1BFC9C8E54109CA3DB8F485 /* Pods_iEngineering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF21780016F71B363F7195E8 /* Pods_iEngineering.framework */; };
+		EA11B29D1FCB07F500B94CF6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA11B29B1FCB07F500B94CF6 /* SWRevealViewController.m */; };
+		EA11B2A51FCB24A500B94CF6 /* FluidMechanicsRectangularPipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11B2A41FCB24A500B94CF6 /* FluidMechanicsRectangularPipeViewController.swift */; };
+		EA33F4B31FFE438A007A017D /* FluidMechanicsCircularPipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33F4B21FFE438A007A017D /* FluidMechanicsCircularPipeViewController.swift */; };
+		EA39A6082002034000D8F52C /* FluidMechanicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA39A6072002034000D8F52C /* FluidMechanicsTableViewController.swift */; };
+		EA5603BA2008C48900E01B50 /* CandyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5603B52008C48400E01B50 /* CandyTheme.swift */; };
+		EA5603BC2008C48900E01B50 /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5603B72008C48600E01B50 /* SearchFooter.swift */; };
+		EA5603BD2008C48900E01B50 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5603B82008C48700E01B50 /* DetailViewController.swift */; };
+		EA5603BE2008C48900E01B50 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5603B92008C48800E01B50 /* Candy.swift */; };
+		EA960E2A1FC14BE500E46F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA960E291FC14BE500E46F03 /* AppDelegate.swift */; };
+		EA960E2C1FC14BE500E46F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA960E2B1FC14BE500E46F03 /* ViewController.swift */; };
+		EA960E311FC14BE500E46F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA960E301FC14BE500E46F03 /* Assets.xcassets */; };
+		EA960E341FC14BE500E46F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA960E321FC14BE500E46F03 /* LaunchScreen.storyboard */; };
+		EA960E3F1FC14BE500E46F03 /* PengRobEOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA960E3E1FC14BE500E46F03 /* PengRobEOSTests.swift */; };
+		EA960E4A1FC14BE600E46F03 /* PengRobEOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA960E491FC14BE600E46F03 /* PengRobEOSUITests.swift */; };
+		EAB563D520007227000C3DD3 /* FluidMechanicsTankEvacuationAndFillingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB563D420007227000C3DD3 /* FluidMechanicsTankEvacuationAndFillingViewController.swift */; };
+		EAC12DEE1FED0254002BEB47 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC12DED1FED0254002BEB47 /* CollectionViewCell.swift */; };
+		EAD75BE22005E76E008E21F0 /* FluidMechanicsProgrammaticallyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD75BE12005E76E008E21F0 /* FluidMechanicsProgrammaticallyTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA960E3B1FC14BE500E46F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA960E1E1FC14BE400E46F03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA960E251FC14BE500E46F03;
+			remoteInfo = PengRobEOS;
+		};
+		EA960E461FC14BE500E46F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA960E1E1FC14BE400E46F03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA960E251FC14BE500E46F03;
+			remoteInfo = PengRobEOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EAD21A941FF9B4DC007EF55D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C919C0B9E3A9505344D9657 /* Pods-iEngineering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iEngineering.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iEngineering/Pods-iEngineering.debug.xcconfig"; sourceTree = "<group>"; };
+		4B040C4720F29DF000ED5298 /* SearchEngineeringDisciplineAerospaceChemistryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineeringDisciplineAerospaceChemistryViewController.swift; sourceTree = "<group>"; };
+		4B0909D42068F4F60025A770 /* SearchVariablesThermodynamicsSubFugacityTernaryPureCompenentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsSubFugacityTernaryPureCompenentsViewController.swift; sourceTree = "<group>"; };
+		4B17A15B2127BE9E00046820 /* SearchEngineeringDisciplineChemistryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineeringDisciplineChemistryViewController.swift; sourceTree = "<group>"; };
+		4B17A15D2127BF5D00046820 /* SearchEngineeringDisciplineChemistryGeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineeringDisciplineChemistryGeneralViewController.swift; sourceTree = "<group>"; };
+		4B1B254221D98DAA00C4844C /* myCircularButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCircularButtons.swift; sourceTree = "<group>"; };
+		4B21AAF7206E1C6100997C6C /* SearchVariablesThermodynamicsSubFugacityBinaryPureCompenentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsSubFugacityBinaryPureCompenentsViewController.swift; sourceTree = "<group>"; };
+		4B21AAFC206E234900997C6C /* ThermodynamicsFugacityTwoComponentMixturePengRobinsonVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityTwoComponentMixturePengRobinsonVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4B21AAFD206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureTwoTermVirialVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityTwoComponentMixtureTwoTermVirialVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4B21AAFE206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityTwoComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4B21AAFF206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureRedlichKwongVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityTwoComponentMixtureRedlichKwongVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4B21AB04206F422C00997C6C /* ThermodynamicsFugacityPureComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityPureComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4B21AB05206F422C00997C6C /* ThermodynamicsFugacityPureComponentMixturePengRobinsonVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityPureComponentMixturePengRobinsonVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4B21AB06206F422E00997C6C /* ThermodynamicsFugacityPureComponentMixtureTwoTermVirialVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityPureComponentMixtureTwoTermVirialVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4B21AB07206F422F00997C6C /* ThermodynamicsFugacityPureComponentMixtureRedlichKwongVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityPureComponentMixtureRedlichKwongVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4B21AB0C206F42C800997C6C /* SearchVariablesThermodynamicsSubFugacityPureCompenentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsSubFugacityPureCompenentsViewController.swift; sourceTree = "<group>"; };
+		4B21AB11206F6AEE00997C6C /* SearchEngineeringDisciplineCivilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchEngineeringDisciplineCivilViewController.swift; path = "Engineering Discipline View Controller/EngineeringDisciplineChemicalViewController/SearchEngineeringDisciplineCivilViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B21AB13206F6AF900997C6C /* SearchEngineeringDisciplineElectricalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchEngineeringDisciplineElectricalViewController.swift; path = "Engineering Discipline View Controller/EngineeringDisciplineChemicalViewController/SearchEngineeringDisciplineElectricalViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B21AB15206F6B0300997C6C /* SearchEngineeringDisciplineMechanicalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchEngineeringDisciplineMechanicalViewController.swift; path = "Engineering Discipline View Controller/EngineeringDisciplineChemicalViewController/SearchEngineeringDisciplineMechanicalViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B29143120C0D98400F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift; sourceTree = "<group>"; };
+		4B29143320C1006100F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift; sourceTree = "<group>"; };
+		4B29143520C1109100F56F37 /* ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_VolumetricFlowRate_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_VolumetricFlowRate_ViewController.swift; sourceTree = "<group>"; };
+		4B29143720C1383B00F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORFinalPressureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORFinalPressureViewController.swift; sourceTree = "<group>"; };
+		4B29143920C2268D00F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORInitialPressureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORInitialPressureViewController.swift; sourceTree = "<group>"; };
+		4B2A646420FB30FC00763A25 /* SearchEngineeringDisciplineElectricalCircuitComponentsResistorBandNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineeringDisciplineElectricalCircuitComponentsResistorBandNumberViewController.swift; sourceTree = "<group>"; };
+		4B2A646620FB333E00763A25 /* ElectricalEngineeringCircuitComponentsResistorValueCalculator5ColorBandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricalEngineeringCircuitComponentsResistorValueCalculator5ColorBandViewController.swift; sourceTree = "<group>"; };
+		4B2A646720FB333F00763A25 /* ElectricalEngineeringCircuitComponentsResistorValueCalculator6ColorBandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricalEngineeringCircuitComponentsResistorValueCalculator6ColorBandViewController.swift; sourceTree = "<group>"; };
+		4B2CC47C20A78C5A0019F510 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumeViewController.swift; path = "Reactor_Design/Continuously Stirred Tank Reactor/CSTR (Isothermal or Nonisothermal)/CSTR Isothermal (Isobaric or Nonisobaric)/CSTR Isothermal Isobaric (Gas or Liquid)/CSTR Isothermal Isobaric Liquid (Choose Variable to Solve)/CSTR Isothermal Isobaric Liquid Solve For Volume/ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B32117A2338572A00B527A5 /* MyProgrammaticallyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyProgrammaticallyTableViewController.m; path = iEngineering/MyProgrammaticallyTableViewController.m; sourceTree = "<group>"; };
+		4B32117C2338580B00B527A5 /* refactoredMechanical_generalEquations_Circuits_storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = refactoredMechanical_generalEquations_Circuits_storyboard.storyboard; sourceTree = "<group>"; };
+		4B39754920B7C8CB00EC3818 /* SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricGasPhaseVARIABLEStoSOLVEViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricGasPhaseVARIABLEStoSOLVEViewController.swift; path = "Reactor_Design/Continuously Stirred Tank Reactor/New Group/CSTR Isothermal (Isobaric or Nonisobaric)/CSTR Isothermal Isobaric (Gas or Liquid)/CSTR Isothermal Isobaric Gas (Choose Variable to Solve)/SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricGasPhaseVARIABLEStoSOLVEViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B39754B20B7C8D700EC3818 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORConversionViewController.swift; sourceTree = "<group>"; };
+		4B4263F02067524100570B47 /* SearchVariablesFluidMechanicsGoToDiameterLaminarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToDiameterLaminarViewController.swift; sourceTree = "<group>"; };
+		4B4263F22067524100570B47 /* SearchVariablesFluidMechanicsGoToVelocityCompressibleGasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToVelocityCompressibleGasViewController.swift; sourceTree = "<group>"; };
+		4B4263F32067524100570B47 /* SearchVariablesFluidMechanicsGoToPressureDropLaminarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToPressureDropLaminarViewController.swift; sourceTree = "<group>"; };
+		4B4263F42067524100570B47 /* SearchVariablesFluidMechanicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsViewController.swift; sourceTree = "<group>"; };
+		4B4263F52067524200570B47 /* SearchVariablesFluidMechanicsGoToReynoldsNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToReynoldsNumberViewController.swift; sourceTree = "<group>"; };
+		4B4263F62067524200570B47 /* SearchVariablesFluidMechanicsGoToHeadLossTurbulentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToHeadLossTurbulentViewController.swift; sourceTree = "<group>"; };
+		4B4263F72067524200570B47 /* SearchVariablesFluidMechanicsGoToPressureDropTurbulentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToPressureDropTurbulentViewController.swift; sourceTree = "<group>"; };
+		4B4263F82067524200570B47 /* SearchVariablesFluidMechanicsGoToFrictionFactorLaminarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToFrictionFactorLaminarViewController.swift; sourceTree = "<group>"; };
+		4B4263F92067524200570B47 /* SearchVariablesFluidMechanicsGoToLengthHydrodynamicEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToLengthHydrodynamicEntryViewController.swift; sourceTree = "<group>"; };
+		4B4263FA2067524200570B47 /* SearchVariablesFluidMechanicsGoToDiameterTurbulentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToDiameterTurbulentViewController.swift; sourceTree = "<group>"; };
+		4B4263FB2067524300570B47 /* SearchVariablesFluidMechanicsGoToShearStressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToShearStressViewController.swift; sourceTree = "<group>"; };
+		4B4263FC2067524300570B47 /* SearchVariablesFluidMechanicsGoToVolumetricFlowRateTurbulentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToVolumetricFlowRateTurbulentViewController.swift; sourceTree = "<group>"; };
+		4B4263FD2067524300570B47 /* SearchVariablesFluidMechanicsGoToHeadLossViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToHeadLossViewController.swift; sourceTree = "<group>"; };
+		4B4263FE2067524300570B47 /* SearchVariablesFluidMechanicsGoToVelocityLaminarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToVelocityLaminarViewController.swift; sourceTree = "<group>"; };
+		4B4263FF2067524300570B47 /* SearchVariablesFluidMechanicsGoToFrictionFactorTurbulentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToFrictionFactorTurbulentViewController.swift; sourceTree = "<group>"; };
+		4B4264002067524300570B47 /* SearchVariablesFluidMechanicsGoToVolumetricFlowRateLaminarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToVolumetricFlowRateLaminarViewController.swift; sourceTree = "<group>"; };
+		4B426413206753D200570B47 /* SearchVariablesFluidMechanicsRectangularPipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchVariablesFluidMechanicsRectangularPipeViewController.swift; path = "Fluid_Mechanics/Rectangular Pipe/SearchVariablesFluidMechanicsRectangularPipeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B42641720675F6200570B47 /* SearchVariablesFluidMechanicsRectangularPipeShearStressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchVariablesFluidMechanicsRectangularPipeShearStressViewController.swift; path = "Fluid_Mechanics/Rectangular Pipe/SearchVariablesFluidMechanicsRectangularPipeShearStressViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B42641820675F6200570B47 /* SearchVariablesFluidMechanicsRectangularPipeVelocityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchVariablesFluidMechanicsRectangularPipeVelocityViewController.swift; path = "Fluid_Mechanics/Rectangular Pipe/SearchVariablesFluidMechanicsRectangularPipeVelocityViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B42641B206768FD00570B47 /* SearchVariablesFluidMechanicsGoToFrictionalDissipationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsGoToFrictionalDissipationViewController.swift; sourceTree = "<group>"; };
+		4B42641D206774F100570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowPastASingleSphereViewController.swift; sourceTree = "<group>"; };
+		4B42641F2067764E00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereDiameterOfParticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowPastASingleSphereDiameterOfParticleViewController.swift; sourceTree = "<group>"; };
+		4B4264202067764E00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereVelocityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowPastASingleSphereVelocityViewController.swift; sourceTree = "<group>"; };
+		4B4264212067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereReynoldsNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowPastASingleSphereReynoldsNumberViewController.swift; sourceTree = "<group>"; };
+		4B4264222067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereArchimedesNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowPastASingleSphereArchimedesNumberViewController.swift; sourceTree = "<group>"; };
+		4B4264232067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereFrictionFactorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowPastASingleSphereFrictionFactorViewController.swift; sourceTree = "<group>"; };
+		4B4264242067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereViscosityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowPastASingleSphereViscosityViewController.swift; sourceTree = "<group>"; };
+		4B46D4FC20662FAB001FB9D3 /* SearchVariablesThermodynamicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsViewController.swift; sourceTree = "<group>"; };
+		4B46D4FF206637EB001FB9D3 /* SearchVariablesThermodynamicsCompressibilityFactorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsCompressibilityFactorViewController.swift; sourceTree = "<group>"; };
+		4B46D5042066656B001FB9D3 /* SearchVariablesThermodynamicsEntropyIdealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsEntropyIdealViewController.swift; sourceTree = "<group>"; };
+		4B46D5062066656C001FB9D3 /* SearchVariablesThermodynamicsTemperatureSaturationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsTemperatureSaturationViewController.swift; sourceTree = "<group>"; };
+		4B46D5072066656C001FB9D3 /* SearchVariablesThermodynamicsCompositionPhaseFractionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsCompositionPhaseFractionsViewController.swift; sourceTree = "<group>"; };
+		4B46D5082066656D001FB9D3 /* SearchVariablesThermodynamicsPressureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsPressureViewController.swift; sourceTree = "<group>"; };
+		4B46D5092066656E001FB9D3 /* SearchVariablesThermodynamicsPressureSaturationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsPressureSaturationViewController.swift; sourceTree = "<group>"; };
+		4B46D50A2066656E001FB9D3 /* SearchVariablesThermodynamicsHeatCapacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsHeatCapacityViewController.swift; sourceTree = "<group>"; };
+		4B51FC8B209D85080017AB25 /* SearchChemicalEngineeringReactorDesignCSTR_isothermalORnonisothermal_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchChemicalEngineeringReactorDesignCSTR_isothermalORnonisothermal_ViewController.swift; path = "Reactor_Design/Continuously Stirred Tank Reactor/CSTR (Isothermal or Nonisothermal)/SearchChemicalEngineeringReactorDesignCSTR_isothermalORnonisothermal_ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B51FC8D209D85190017AB25 /* SearchChemicalEngineeringReactorDesignCSTRisothermal_isobaricORnonisobaric_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchChemicalEngineeringReactorDesignCSTRisothermal_isobaricORnonisobaric_ViewController.swift; path = "Reactor_Design/Continuously Stirred Tank Reactor/New Group/CSTR Isothermal (Isobaric or Nonisobaric)/SearchChemicalEngineeringReactorDesignCSTRisothermal_isobaricORnonisobaric_ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B51FC8F209D85300017AB25 /* SearchChemicalEngineeringReactorDesignCSTRisothermalisobaric_liquidphaseORgasphase_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchChemicalEngineeringReactorDesignCSTRisothermalisobaric_liquidphaseORgasphase_ViewController.swift; path = "Reactor_Design/Continuously Stirred Tank Reactor/CSTR (Isothermal or Nonisothermal)/CSTR Isothermal (Isobaric or Nonisobaric)/CSTR Isothermal Isobaric (Gas or Liquid)/SearchChemicalEngineeringReactorDesignCSTRisothermalisobaric_liquidphaseORgasphase_ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B51FC91209D85A80017AB25 /* SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift; path = "Reactor_Design/Continuously Stirred Tank Reactor/CSTR (Isothermal or Nonisothermal)/CSTR Isothermal (Isobaric or Nonisobaric)/CSTR Isothermal Isobaric (Gas or Liquid)/CSTR Isothermal Isobaric Liquid (Choose Variable to Solve)/SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B51FC96209D926B0017AB25 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORConversionViewController.swift; path = "Reactor_Design/Continuously Stirred Tank Reactor/CSTR (Isothermal or Nonisothermal)/CSTR Isothermal (Isobaric or Nonisobaric)/CSTR Isothermal Isobaric (Gas or Liquid)/CSTR Isothermal Isobaric Liquid (Choose Variable to Solve)/CSTR Isothermal Isobaric Liquid Solve For Conversion/ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORConversionViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B58B68F20C2723C00AD5A8D /* SearchChemicalEngineeringReactorDesignCSTRNONisothermal_isobaricORnonisobaric_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignCSTRNONisothermal_isobaricORnonisobaric_ViewController.swift; sourceTree = "<group>"; };
+		4B58B69220C2739200AD5A8D /* SearchChemicalEngineeringReactorDesignCSTRNONisothermalNONisobaric_variableDensity_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignCSTRNONisothermalNONisobaric_variableDensity_ViewController.swift; sourceTree = "<group>"; };
+		4B58B69520C2743000AD5A8D /* SearchChemicalEngineeringReactorDesignCstrNONIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignCstrNONIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift; sourceTree = "<group>"; };
+		4B58B69720C2749200AD5A8D /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift; sourceTree = "<group>"; };
+		4B5938AD206C0EE600FCBDE6 /* ThermodynamicsFugacityThreeComponentMixtureTwoTermVirialVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityThreeComponentMixtureTwoTermVirialVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4B5938B2206CA68C00FCBDE6 /* SearchEngineeringDisciplineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineeringDisciplineViewController.swift; sourceTree = "<group>"; };
+		4B5938B5206CAA2B00FCBDE6 /* SearchEngineeringDisciplineChemicalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineeringDisciplineChemicalViewController.swift; sourceTree = "<group>"; };
+		4B5938B7206CAD8A00FCBDE6 /* SearchChemicalEngineeringSubjectsFluidMechanicsTransportGeometryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringSubjectsFluidMechanicsTransportGeometryViewController.swift; sourceTree = "<group>"; };
+		4B5DA5372099887F00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignGeneralVariablesViewController.swift; sourceTree = "<group>"; };
+		4B5DA539209989E500380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift; sourceTree = "<group>"; };
+		4B5DA53C2099914A00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift; sourceTree = "<group>"; };
+		4B5DA5462099A54300380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift; sourceTree = "<group>"; };
+		4B5DA5482099A5EE00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift; sourceTree = "<group>"; };
+		4B5DA54C2099A66200380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift; sourceTree = "<group>"; };
+		4B5DA5502099AD5200380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift; sourceTree = "<group>"; };
+		4B5DA5522099AE1600380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift; sourceTree = "<group>"; };
+		4B5DA5542099AE6E00380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift; sourceTree = "<group>"; };
+		4B5DA5562099AEC800380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift; sourceTree = "<group>"; };
+		4B5DA5582099AF1C00380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift; sourceTree = "<group>"; };
+		4B5DA55B2099C5C000380AE7 /* SearchEngineeringDisciplineAerospaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchEngineeringDisciplineAerospaceViewController.swift; path = "Engineering Discipline View Controller/EngineeringDisciplineChemicalViewController/SearchEngineeringDisciplineAerospaceViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B63195B21D2A328000716AE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4B66BF38209AC74200EEB676 /* SearchEngineeringDisciplineElectricalGeneralEquationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineeringDisciplineElectricalGeneralEquationsViewController.swift; sourceTree = "<group>"; };
+		4B66BF3D209AD2EB00EEB676 /* ElectricalEngineeringGeneralEquationsCapacitanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringGeneralEquationsCapacitanceViewController.swift; path = "Master Equation Location?/ElectricalEngineeringGeneralEquationsCapacitanceViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B66BF3F209AF9F500EEB676 /* ElectricalEngineeringGeneralEquationsPowerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringGeneralEquationsPowerViewController.swift; path = "Master Equation Location?/ElectricalEngineeringGeneralEquationsPowerViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B66BF40209AF9F600EEB676 /* ElectricalEngineeringGeneralEquationsPeriodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringGeneralEquationsPeriodViewController.swift; path = "Master Equation Location?/ElectricalEngineeringGeneralEquationsPeriodViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B66BF41209AF9F600EEB676 /* ElectricalEngineeringGeneralEquationsCurrentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringGeneralEquationsCurrentViewController.swift; path = "Master Equation Location?/ElectricalEngineeringGeneralEquationsCurrentViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B66BF42209AF9F600EEB676 /* ElectricalEngineeringGeneralEquationsResistanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringGeneralEquationsResistanceViewController.swift; path = "Master Equation Location?/ElectricalEngineeringGeneralEquationsResistanceViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B66BF43209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsConductanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringGeneralEquationsConductanceViewController.swift; path = "Master Equation Location?/ElectricalEngineeringGeneralEquationsConductanceViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B66BF44209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsImpedanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringGeneralEquationsImpedanceViewController.swift; path = "Master Equation Location?/ElectricalEngineeringGeneralEquationsImpedanceViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B66BF45209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsFrequencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringGeneralEquationsFrequencyViewController.swift; path = "Master Equation Location?/ElectricalEngineeringGeneralEquationsFrequencyViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B66BF46209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsInductanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringGeneralEquationsInductanceViewController.swift; path = "Master Equation Location?/ElectricalEngineeringGeneralEquationsInductanceViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B66BF47209AF9F800EEB676 /* ElectricalEngineeringGeneralEquationsChargeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringGeneralEquationsChargeViewController.swift; path = "Master Equation Location?/ElectricalEngineeringGeneralEquationsChargeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B66BF48209AF9F800EEB676 /* ElectricalEngineeringGeneralEquationsVoltageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringGeneralEquationsVoltageViewController.swift; path = "Master Equation Location?/ElectricalEngineeringGeneralEquationsVoltageViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B66BF57209BC80E00EEB676 /* SearchEngineeringDisciplineMechanicalGeneralEquationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineeringDisciplineMechanicalGeneralEquationsViewController.swift; sourceTree = "<group>"; };
+		4B66BF59209BC87F00EEB676 /* SearchEngineeringDisciplineAerospaceGeneralEquationsCircuitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineeringDisciplineAerospaceGeneralEquationsCircuitsViewController.swift; sourceTree = "<group>"; };
+		4B6E18FE20F5C78C000663A7 /* ElectricalEngineeringCircuitComponentsResistorValueCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectricalEngineeringCircuitComponentsResistorValueCalculatorViewController.swift; path = "Engineering Discipline View Controller/EngineeringDisciplineElectricalViewController/Circuit Components/Component Calculators/Resistor Band Number/ElectricalEngineeringCircuitComponentsResistorValueCalculatorViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4B6E190120F5C86F000663A7 /* SearchEngineeringDisciplineElectricalCircuitComponentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineeringDisciplineElectricalCircuitComponentsViewController.swift; sourceTree = "<group>"; };
+		4B7CD7C020BD2F980099E3C1 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumetricFlowRateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumetricFlowRateViewController.swift; sourceTree = "<group>"; };
+		4B7CD7C320BD47D10099E3C1 /* SearchEngineeringDisciplineCivilGeneralEquationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineeringDisciplineCivilGeneralEquationsViewController.swift; sourceTree = "<group>"; };
+		4B7CD7C620BD49460099E3C1 /* CivilEngineeringGeneralEquationsConcentrationDilutionCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilEngineeringGeneralEquationsConcentrationDilutionCalculatorViewController.swift; sourceTree = "<group>"; };
+		4B7CD7C920BE61D90099E3C1 /* SearchChemicalEngineeringSubjectsGeneralChemistryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringSubjectsGeneralChemistryViewController.swift; sourceTree = "<group>"; };
+		4B7CD7CE20BF773B0099E3C1 /* SearchChemicalEngineeringReactorDesignCSTRisothermalNONisobaric_variableDensity_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignCSTRisothermalNONisobaric_variableDensity_ViewController.swift; sourceTree = "<group>"; };
+		4B7CD7D020BF79460099E3C1 /* SearchChemicalEngineeringReactorDesignCstrIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignCstrIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift; sourceTree = "<group>"; };
+		4B7CD7D220BF7AE70099E3C1 /* ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_Volume_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_Volume_ViewController.swift; sourceTree = "<group>"; };
+		4B88E9182096FC9F00EE35DD /* SearchChemicalEngineeringReactorDesignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignViewController.swift; sourceTree = "<group>"; };
+		4B8B6CD12068CE490027697E /* ThermodynamicsFugacityThreeComponentMixturePengRobinsonVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityThreeComponentMixturePengRobinsonVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4B8C3B8920F85489001339C9 /* ElectricalEngineeringCircuitComponentsResistorValueCONSTANTSforCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricalEngineeringCircuitComponentsResistorValueCONSTANTSforCalculatorViewController.swift; sourceTree = "<group>"; };
+		4B8C3B8B20F87E66001339C9 /* ElectricalEngineeringCircuitComponentsResistorValueCALCULATIONS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricalEngineeringCircuitComponentsResistorValueCALCULATIONS.swift; sourceTree = "<group>"; };
+		4B96900820B80DAF00623999 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORrateConstantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORrateConstantViewController.swift; sourceTree = "<group>"; };
+		4B96900B20BA76E700623999 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumeViewController.swift; sourceTree = "<group>"; };
+		4BA1CBF72067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsFrictionFactorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowInPackedBedsFrictionFactorViewController.swift; sourceTree = "<group>"; };
+		4BA1CBF82067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowInPackedBedsViewController.swift; sourceTree = "<group>"; };
+		4BA1CBF92067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsReynoldsNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowInPackedBedsReynoldsNumberViewController.swift; sourceTree = "<group>"; };
+		4BA1CBFA2067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsPressureDropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowInPackedBedsPressureDropViewController.swift; sourceTree = "<group>"; };
+		4BA1CBFB2067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsPorosityFractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowInPackedBedsPorosityFractionViewController.swift; sourceTree = "<group>"; };
+		4BA1CBFC2067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsVelocitySuperficialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowInPackedBedsVelocitySuperficialViewController.swift; sourceTree = "<group>"; };
+		4BA1CBFD2067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsDiameterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsFlowInPackedBedsDiameterViewController.swift; sourceTree = "<group>"; };
+		4BA1CC05206812FB0040C4E0 /* SearchVariablesFluidMechanicsTankEvacuationAndFillingTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsTankEvacuationAndFillingTimeViewController.swift; sourceTree = "<group>"; };
+		4BA1CC06206812FC0040C4E0 /* SearchVariablesFluidMechanicsTankEvacuationAndFillingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesFluidMechanicsTankEvacuationAndFillingViewController.swift; sourceTree = "<group>"; };
+		4BAAED2420C4A07100051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumeViewController.swift; sourceTree = "<group>"; };
+		4BAAED2620C4B98B00051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift; sourceTree = "<group>"; };
+		4BAAED2820C4C0FB00051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumetricFlowRateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumetricFlowRateViewController.swift; sourceTree = "<group>"; };
+		4BB45C9121D42C8500717604 /* refactoredAerospace_generalEquations_Circuits_storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = refactoredAerospace_generalEquations_Circuits_storyboard.storyboard; sourceTree = "<group>"; };
+		4BB45C9521D4403C00717604 /* refactoredElectrical_generalEquations_Circuits_storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = refactoredElectrical_generalEquations_Circuits_storyboard.storyboard; sourceTree = "<group>"; };
+		4BCE16A521D6ECBA007BBF78 /* refactored_calculator_storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = refactored_calculator_storyboard.storyboard; sourceTree = "<group>"; };
+		4BCE16A721D6ED04007BBF78 /* calcOperatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calcOperatorDelegate.swift; sourceTree = "<group>"; };
+		4BCE16A821D6ED05007BBF78 /* CalculatorTapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorTapeViewController.swift; sourceTree = "<group>"; };
+		4BCE16A921D6ED05007BBF78 /* instantiatedYellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = instantiatedYellowViewController.swift; sourceTree = "<group>"; };
+		4BCE16AA21D6ED06007BBF78 /* myCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCalculatorViewController.swift; sourceTree = "<group>"; };
+		4BCE16AB21D6ED07007BBF78 /* instantiatedMagentaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = instantiatedMagentaViewController.swift; sourceTree = "<group>"; };
+		4BCE16AC21D6ED08007BBF78 /* instantiatedOrangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = instantiatedOrangeViewController.swift; sourceTree = "<group>"; };
+		4BCE16AD21D6ED09007BBF78 /* rootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rootPageViewController.swift; sourceTree = "<group>"; };
+		4BCE16AE21D6ED0A007BBF78 /* instantiatedCyanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = instantiatedCyanViewController.swift; sourceTree = "<group>"; };
+		4BCE16B721D6EEA9007BBF78 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		4BD4B46320A7EF1C00397201 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORRateConstantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORRateConstantViewController.swift; path = "Reactor_Design/Continuously Stirred Tank Reactor/CSTR (Isothermal or Nonisothermal)/CSTR Isothermal (Isobaric or Nonisobaric)/CSTR Isothermal Isobaric (Gas or Liquid)/CSTR Isothermal Isobaric Liquid (Choose Variable to Solve)/CSTR Isothermal Isobaric Liquid Solve For Rate Constant/ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORRateConstantViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4BD4B46620A7F51A00397201 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumetricFlowRateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumetricFlowRateViewController.swift; path = "Reactor_Design/Continuously Stirred Tank Reactor/CSTR (Isothermal or Nonisothermal)/CSTR Isothermal (Isobaric or Nonisobaric)/CSTR Isothermal Isobaric (Gas or Liquid)/CSTR Isothermal Isobaric Liquid (Choose Variable to Solve)/CSTR Isothermal Isobaric Liquid Solve For Volumetric Flow Rate/ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumetricFlowRateViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4BD4B46D20A7FD3F00397201 /* SearchChemicalEngineeringReactorDesignPFR_isothermalORnonisothermal_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignPFR_isothermalORnonisothermal_ViewController.swift; sourceTree = "<group>"; };
+		4BD4B46F20A7FD4E00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermal_isobaricORnonisobaric_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignPFRnonIsothermal_isobaricORnonisobaric_ViewController.swift; sourceTree = "<group>"; };
+		4BD4B47120A7FD5C00397201 /* SearchChemicalEngineeringReactorDesignPFRnonisothermalisobaric_liquidphaseORgasphase_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignPFRnonisothermalisobaric_liquidphaseORgasphase_ViewController.swift; sourceTree = "<group>"; };
+		4BD4B47320A7FD6D00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift; sourceTree = "<group>"; };
+		4BD4B47920A80DCC00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVariableConversionReactionOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVariableConversionReactionOrderViewController.swift; sourceTree = "<group>"; };
+		4BD73F712082713900F87440 /* SearchVariablesThermodynamicsCompositionMoleFractionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsCompositionMoleFractionsViewController.swift; sourceTree = "<group>"; };
+		4BD73F77208275D200F87440 /* SearchChemicalEngineeringSeparationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringSeparationsViewController.swift; sourceTree = "<group>"; };
+		4BD73F7A2082761200F87440 /* SearchChemicalEngineeringSeparationsVaporLiquidEquilibriumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChemicalEngineeringSeparationsVaporLiquidEquilibriumViewController.swift; sourceTree = "<group>"; };
+		4BE644B1206B1E540028B863 /* ThermodynamicsFugacityThreeComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityThreeComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4BE644B3206B20A00028B863 /* ThermodynamicsFugacityThreeComponentMixtureRedlichKwongVaporEOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermodynamicsFugacityThreeComponentMixtureRedlichKwongVaporEOSViewController.swift; sourceTree = "<group>"; };
+		4BF1C5032088301000FE2E22 /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		4BF1C5042088301100FE2E22 /* ChartColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartColors.swift; sourceTree = "<group>"; };
+		4BF1C5052088301100FE2E22 /* ChartSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartSeries.swift; sourceTree = "<group>"; };
+		4BF1C50B20883BEF00FE2E22 /* BasicChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicChartViewController.swift; sourceTree = "<group>"; };
+		4BF7E9612068C3A500D656C0 /* SearchVariablesThermodynamicsFugacityCoefficientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsFugacityCoefficientsViewController.swift; sourceTree = "<group>"; };
+		4BF7E9622068C3A600D656C0 /* SearchVariablesThermodynamicsFugacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVariablesThermodynamicsFugacityViewController.swift; sourceTree = "<group>"; };
+		4BF81DC420ABF18E00B3ABB4 /* ChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseSolveFORConversion_deltaXdeltaV_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseSolveFORConversion_deltaXdeltaV_ViewController.swift; path = "Separations/Vapor Liquid Equilibrium/McCabe Thiele (Vapor Liquid Equilibrium)/ChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseSolveFORConversion_deltaXdeltaV_ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B0FAE6BC4C0FD45131CB50C7 /* Pods-CHE Equations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHE Equations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHE Equations/Pods-CHE Equations.debug.xcconfig"; sourceTree = "<group>"; };
+		DA46E93E1239B0FDF8CE4AC6 /* Pods-iEngineering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iEngineering.release.xcconfig"; path = "Pods/Target Support Files/Pods-iEngineering/Pods-iEngineering.release.xcconfig"; sourceTree = "<group>"; };
+		DF21780016F71B363F7195E8 /* Pods_iEngineering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iEngineering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81F4A63BA73A8D82CA76013 /* Pods-CHE Equations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHE Equations.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHE Equations/Pods-CHE Equations.release.xcconfig"; sourceTree = "<group>"; };
+		EA11B29A1FCB025A00B94CF6 /* iEngineering-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iEngineering-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA11B29B1FCB07F500B94CF6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		EA11B29C1FCB07F500B94CF6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		EA11B2A41FCB24A500B94CF6 /* FluidMechanicsRectangularPipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidMechanicsRectangularPipeViewController.swift; sourceTree = "<group>"; };
+		EA33F4B21FFE438A007A017D /* FluidMechanicsCircularPipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidMechanicsCircularPipeViewController.swift; sourceTree = "<group>"; };
+		EA39A6072002034000D8F52C /* FluidMechanicsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidMechanicsTableViewController.swift; sourceTree = "<group>"; };
+		EA5603B52008C48400E01B50 /* CandyTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyTheme.swift; sourceTree = "<group>"; };
+		EA5603B72008C48600E01B50 /* SearchFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
+		EA5603B82008C48700E01B50 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EA5603B92008C48800E01B50 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		EA960E261FC14BE500E46F03 /* iEngineering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iEngineering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA960E291FC14BE500E46F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA960E2B1FC14BE500E46F03 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		EA960E301FC14BE500E46F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA960E331FC14BE500E46F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA960E351FC14BE500E46F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA960E3A1FC14BE500E46F03 /* iEngineeringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iEngineeringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA960E3E1FC14BE500E46F03 /* PengRobEOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PengRobEOSTests.swift; sourceTree = "<group>"; };
+		EA960E401FC14BE500E46F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA960E451FC14BE500E46F03 /* iEngineeringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iEngineeringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA960E491FC14BE600E46F03 /* PengRobEOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PengRobEOSUITests.swift; sourceTree = "<group>"; };
+		EA960E4B1FC14BE600E46F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB563D420007227000C3DD3 /* FluidMechanicsTankEvacuationAndFillingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidMechanicsTankEvacuationAndFillingViewController.swift; sourceTree = "<group>"; };
+		EAC12DED1FED0254002BEB47 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		EAD21A8B1FF9B4DB007EF55D /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		EAD21A8D1FF9B4DB007EF55D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD75BE12005E76E008E21F0 /* FluidMechanicsProgrammaticallyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidMechanicsProgrammaticallyTableViewController.swift; sourceTree = "<group>"; };
+		EAE658842007973700178004 /* MyProgrammaticallyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProgrammaticallyTableViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA960E231FC14BE500E46F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BFC9C8E54109CA3DB8F485 /* Pods_iEngineering.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA960E371FC14BE500E46F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA960E421FC14BE500E46F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4353CEB6D9705D443FAA4AC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF21780016F71B363F7195E8 /* Pods_iEngineering.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B040C4620F1B65F00ED5298 /* Chemistry */ = {
+			isa = PBXGroup;
+			children = (
+				4B040C4720F29DF000ED5298 /* SearchEngineeringDisciplineAerospaceChemistryViewController.swift */,
+			);
+			path = Chemistry;
+			sourceTree = "<group>";
+		};
+		4B0909D32068F40B0025A770 /* Thermodynamics (Sub Search Var Fugacity) */ = {
+			isa = PBXGroup;
+			children = (
+				4B21AB0C206F42C800997C6C /* SearchVariablesThermodynamicsSubFugacityPureCompenentsViewController.swift */,
+				4B0909D42068F4F60025A770 /* SearchVariablesThermodynamicsSubFugacityTernaryPureCompenentsViewController.swift */,
+				4B21AAF7206E1C6100997C6C /* SearchVariablesThermodynamicsSubFugacityBinaryPureCompenentsViewController.swift */,
+				4B8B6CD02068CE070027697E /* Fugacity Coefficient */,
+				4B8B6CCE2068CDF20027697E /* Fugacity */,
+			);
+			path = "Thermodynamics (Sub Search Var Fugacity)";
+			sourceTree = "<group>";
+		};
+		4B17A1582127BDF700046820 /* Chemistry */ = {
+			isa = PBXGroup;
+			children = (
+				4B17A15B2127BE9E00046820 /* SearchEngineeringDisciplineChemistryViewController.swift */,
+				4B17A1592127BDFE00046820 /* General */,
+			);
+			path = Chemistry;
+			sourceTree = "<group>";
+		};
+		4B17A1592127BDFE00046820 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4B17A15D2127BF5D00046820 /* SearchEngineeringDisciplineChemistryGeneralViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		4B21AAF9206E1C7A00997C6C /* Ternary Mixture */ = {
+			isa = PBXGroup;
+			children = (
+				4B8B6CD12068CE490027697E /* ThermodynamicsFugacityThreeComponentMixturePengRobinsonVaporEOSViewController.swift */,
+				4BE644B1206B1E540028B863 /* ThermodynamicsFugacityThreeComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift */,
+				4BE644B3206B20A00028B863 /* ThermodynamicsFugacityThreeComponentMixtureRedlichKwongVaporEOSViewController.swift */,
+				4B5938AD206C0EE600FCBDE6 /* ThermodynamicsFugacityThreeComponentMixtureTwoTermVirialVaporEOSViewController.swift */,
+			);
+			path = "Ternary Mixture";
+			sourceTree = "<group>";
+		};
+		4B21AAFA206E1C8E00997C6C /* Binary Mixture */ = {
+			isa = PBXGroup;
+			children = (
+				4B21AAFC206E234900997C6C /* ThermodynamicsFugacityTwoComponentMixturePengRobinsonVaporEOSViewController.swift */,
+				4B21AAFE206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift */,
+				4B21AAFF206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureRedlichKwongVaporEOSViewController.swift */,
+				4B21AAFD206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureTwoTermVirialVaporEOSViewController.swift */,
+			);
+			path = "Binary Mixture";
+			sourceTree = "<group>";
+		};
+		4B21AAFB206E1C9800997C6C /* Pure Component */ = {
+			isa = PBXGroup;
+			children = (
+				4B21AB05206F422C00997C6C /* ThermodynamicsFugacityPureComponentMixturePengRobinsonVaporEOSViewController.swift */,
+				4B21AB07206F422F00997C6C /* ThermodynamicsFugacityPureComponentMixtureRedlichKwongVaporEOSViewController.swift */,
+				4B21AB04206F422C00997C6C /* ThermodynamicsFugacityPureComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift */,
+				4B21AB06206F422E00997C6C /* ThermodynamicsFugacityPureComponentMixtureTwoTermVirialVaporEOSViewController.swift */,
+			);
+			path = "Pure Component";
+			sourceTree = "<group>";
+		};
+		4B21AB0E206F6A4200997C6C /* EngineeringDisciplineCivilViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B21AB11206F6AEE00997C6C /* SearchEngineeringDisciplineCivilViewController.swift */,
+				4B7CD7C220BD47810099E3C1 /* Civil Engineering General Equations */,
+			);
+			path = EngineeringDisciplineCivilViewController;
+			sourceTree = "<group>";
+		};
+		4B21AB0F206F6A5100997C6C /* EngineeringDisciplineElectricalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B21AB13206F6AF900997C6C /* SearchEngineeringDisciplineElectricalViewController.swift */,
+				4B6E18FD20F5C74A000663A7 /* Circuit Components */,
+				4B66BF37209AC6D000EEB676 /* General Equations */,
+			);
+			path = EngineeringDisciplineElectricalViewController;
+			sourceTree = "<group>";
+		};
+		4B21AB10206F6A6000997C6C /* EngineeringDisciplineMechanicalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B21AB15206F6B0300997C6C /* SearchEngineeringDisciplineMechanicalViewController.swift */,
+				4B66BF53209BC74E00EEB676 /* Circuits */,
+			);
+			path = EngineeringDisciplineMechanicalViewController;
+			sourceTree = "<group>";
+		};
+		4B2A646320FB306200763A25 /* Resistor Band Number */ = {
+			isa = PBXGroup;
+			children = (
+				4B8C3B8B20F87E66001339C9 /* ElectricalEngineeringCircuitComponentsResistorValueCALCULATIONS.swift */,
+				4B6E18FE20F5C78C000663A7 /* ElectricalEngineeringCircuitComponentsResistorValueCalculatorViewController.swift */,
+				4B2A646620FB333E00763A25 /* ElectricalEngineeringCircuitComponentsResistorValueCalculator5ColorBandViewController.swift */,
+				4B2A646720FB333F00763A25 /* ElectricalEngineeringCircuitComponentsResistorValueCalculator6ColorBandViewController.swift */,
+				4B8C3B8920F85489001339C9 /* ElectricalEngineeringCircuitComponentsResistorValueCONSTANTSforCalculatorViewController.swift */,
+			);
+			path = "Resistor Band Number";
+			sourceTree = "<group>";
+		};
+		4B2CC47920A784FA0019F510 /* CSTR Isothermal Isobaric Liquid Solve for Volume */ = {
+			isa = PBXGroup;
+			children = (
+				4B2CC47C20A78C5A0019F510 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumeViewController.swift */,
+			);
+			path = "CSTR Isothermal Isobaric Liquid Solve for Volume";
+			sourceTree = "<group>";
+		};
+		4B39754720B7C7C000EC3818 /* CSTR Isothermal Isobaric Gas (Choose Variable to Solve) */ = {
+			isa = PBXGroup;
+			children = (
+				4B39754920B7C8CB00EC3818 /* SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricGasPhaseVARIABLEStoSOLVEViewController.swift */,
+				4B7CD7BF20BD2F4A0099E3C1 /* CSTR Isothermal Isobaric Gas Solve for Volumetric Flow Rate */,
+				4B96900A20BA766200623999 /* CSTR Isothermal Isobaric Liquid Solve for Volume */,
+				4B96900720B80D9600623999 /* CSTR Isothermal Isobaric Gas Solve for Rate Constant */,
+				4B39754820B7C86600EC3818 /* CSTR Isothermal Isobaric Gas Solve for Conversion */,
+			);
+			path = "CSTR Isothermal Isobaric Gas (Choose Variable to Solve)";
+			sourceTree = "<group>";
+		};
+		4B39754820B7C86600EC3818 /* CSTR Isothermal Isobaric Gas Solve for Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				4B39754B20B7C8D700EC3818 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORConversionViewController.swift */,
+			);
+			path = "CSTR Isothermal Isobaric Gas Solve for Conversion";
+			sourceTree = "<group>";
+		};
+		4B4263EA2067502E00570B47 /* Rectangular Pipe */ = {
+			isa = PBXGroup;
+			children = (
+				4B426413206753D200570B47 /* SearchVariablesFluidMechanicsRectangularPipeViewController.swift */,
+				4B42641720675F6200570B47 /* SearchVariablesFluidMechanicsRectangularPipeShearStressViewController.swift */,
+				4B42641820675F6200570B47 /* SearchVariablesFluidMechanicsRectangularPipeVelocityViewController.swift */,
+			);
+			name = "Rectangular Pipe";
+			path = "New Group/Rectangular Pipe";
+			sourceTree = "<group>";
+		};
+		4B4263EB2067504E00570B47 /* Flow Past A Single Sphere */ = {
+			isa = PBXGroup;
+			children = (
+				4B42641D206774F100570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereViewController.swift */,
+				4B4264222067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereArchimedesNumberViewController.swift */,
+				4B42641F2067764E00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereDiameterOfParticleViewController.swift */,
+				4B4264232067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereFrictionFactorViewController.swift */,
+				4B4264212067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereReynoldsNumberViewController.swift */,
+				4B4264202067764E00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereVelocityViewController.swift */,
+				4B4264242067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereViscosityViewController.swift */,
+			);
+			path = "Flow Past A Single Sphere";
+			sourceTree = "<group>";
+		};
+		4B4263EC2067506200570B47 /* Flow In Packed Beds */ = {
+			isa = PBXGroup;
+			children = (
+				4BA1CBFD2067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsDiameterViewController.swift */,
+				4BA1CBF72067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsFrictionFactorViewController.swift */,
+				4BA1CBFB2067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsPorosityFractionViewController.swift */,
+				4BA1CBFA2067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsPressureDropViewController.swift */,
+				4BA1CBF92067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsReynoldsNumberViewController.swift */,
+				4BA1CBFC2067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsVelocitySuperficialViewController.swift */,
+				4BA1CBF82067A25B0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsViewController.swift */,
+			);
+			path = "Flow In Packed Beds";
+			sourceTree = "<group>";
+		};
+		4B4263ED2067508000570B47 /* Tank (Evacuation & Filling) */ = {
+			isa = PBXGroup;
+			children = (
+				4BA1CC05206812FB0040C4E0 /* SearchVariablesFluidMechanicsTankEvacuationAndFillingTimeViewController.swift */,
+				4BA1CC06206812FC0040C4E0 /* SearchVariablesFluidMechanicsTankEvacuationAndFillingViewController.swift */,
+			);
+			path = "Tank (Evacuation & Filling)";
+			sourceTree = "<group>";
+		};
+		4B4264122067529F00570B47 /* Circular Pipe */ = {
+			isa = PBXGroup;
+			children = (
+				4B4263F02067524100570B47 /* SearchVariablesFluidMechanicsGoToDiameterLaminarViewController.swift */,
+				4B4263FA2067524200570B47 /* SearchVariablesFluidMechanicsGoToDiameterTurbulentViewController.swift */,
+				4B4263F82067524200570B47 /* SearchVariablesFluidMechanicsGoToFrictionFactorLaminarViewController.swift */,
+				4B42641B206768FD00570B47 /* SearchVariablesFluidMechanicsGoToFrictionalDissipationViewController.swift */,
+				4B4263FF2067524300570B47 /* SearchVariablesFluidMechanicsGoToFrictionFactorTurbulentViewController.swift */,
+				4B4263F62067524200570B47 /* SearchVariablesFluidMechanicsGoToHeadLossTurbulentViewController.swift */,
+				4B4263FD2067524300570B47 /* SearchVariablesFluidMechanicsGoToHeadLossViewController.swift */,
+				4B4263F92067524200570B47 /* SearchVariablesFluidMechanicsGoToLengthHydrodynamicEntryViewController.swift */,
+				4B4263F32067524100570B47 /* SearchVariablesFluidMechanicsGoToPressureDropLaminarViewController.swift */,
+				4B4263F72067524200570B47 /* SearchVariablesFluidMechanicsGoToPressureDropTurbulentViewController.swift */,
+				4B4263F52067524200570B47 /* SearchVariablesFluidMechanicsGoToReynoldsNumberViewController.swift */,
+				4B4263FB2067524300570B47 /* SearchVariablesFluidMechanicsGoToShearStressViewController.swift */,
+				4B4263F22067524100570B47 /* SearchVariablesFluidMechanicsGoToVelocityCompressibleGasViewController.swift */,
+				4B4263FE2067524300570B47 /* SearchVariablesFluidMechanicsGoToVelocityLaminarViewController.swift */,
+				4B4264002067524300570B47 /* SearchVariablesFluidMechanicsGoToVolumetricFlowRateLaminarViewController.swift */,
+				4B4263FC2067524300570B47 /* SearchVariablesFluidMechanicsGoToVolumetricFlowRateTurbulentViewController.swift */,
+				4B4263F42067524100570B47 /* SearchVariablesFluidMechanicsViewController.swift */,
+			);
+			path = "Circular Pipe";
+			sourceTree = "<group>";
+		};
+		4B46D4FE206635DD001FB9D3 /* Fluid_Mechanics */ = {
+			isa = PBXGroup;
+			children = (
+				4B4264122067529F00570B47 /* Circular Pipe */,
+				4B4263EA2067502E00570B47 /* Rectangular Pipe */,
+				4B4263EB2067504E00570B47 /* Flow Past A Single Sphere */,
+				4B4263EC2067506200570B47 /* Flow In Packed Beds */,
+				4B4263ED2067508000570B47 /* Tank (Evacuation & Filling) */,
+			);
+			path = Fluid_Mechanics;
+			sourceTree = "<group>";
+		};
+		4B46D501206647CF001FB9D3 /* Thermodynamics */ = {
+			isa = PBXGroup;
+			children = (
+				4B46D4FC20662FAB001FB9D3 /* SearchVariablesThermodynamicsViewController.swift */,
+				4BD73F712082713900F87440 /* SearchVariablesThermodynamicsCompositionMoleFractionsViewController.swift */,
+				4B46D5072066656C001FB9D3 /* SearchVariablesThermodynamicsCompositionPhaseFractionsViewController.swift */,
+				4B46D4FF206637EB001FB9D3 /* SearchVariablesThermodynamicsCompressibilityFactorViewController.swift */,
+				4B46D5042066656B001FB9D3 /* SearchVariablesThermodynamicsEntropyIdealViewController.swift */,
+				4BF7E9622068C3A600D656C0 /* SearchVariablesThermodynamicsFugacityViewController.swift */,
+				4BF7E9612068C3A500D656C0 /* SearchVariablesThermodynamicsFugacityCoefficientsViewController.swift */,
+				4B0909D32068F40B0025A770 /* Thermodynamics (Sub Search Var Fugacity) */,
+				4B46D50A2066656E001FB9D3 /* SearchVariablesThermodynamicsHeatCapacityViewController.swift */,
+				4B46D5092066656E001FB9D3 /* SearchVariablesThermodynamicsPressureSaturationViewController.swift */,
+				4B46D5082066656D001FB9D3 /* SearchVariablesThermodynamicsPressureViewController.swift */,
+				4B46D5062066656C001FB9D3 /* SearchVariablesThermodynamicsTemperatureSaturationViewController.swift */,
+			);
+			path = Thermodynamics;
+			sourceTree = "<group>";
+		};
+		4B51FC87209D83FC0017AB25 /* CSTR (Isothermal or Nonisothermal) */ = {
+			isa = PBXGroup;
+			children = (
+				4B51FC8B209D85080017AB25 /* SearchChemicalEngineeringReactorDesignCSTR_isothermalORnonisothermal_ViewController.swift */,
+				4B58B68E20C26BDB00AD5A8D /* CSTR nonIsothermal nonIsobaric (Any Fluid Phase) */,
+				4B51FC88209D84220017AB25 /* CSTR Isothermal (Isobaric or Nonisobaric) */,
+			);
+			name = "CSTR (Isothermal or Nonisothermal)";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4B51FC88209D84220017AB25 /* CSTR Isothermal (Isobaric or Nonisobaric) */ = {
+			isa = PBXGroup;
+			children = (
+				4B51FC8D209D85190017AB25 /* SearchChemicalEngineeringReactorDesignCSTRisothermal_isobaricORnonisobaric_ViewController.swift */,
+				4B7CD7CB20BF75DB0099E3C1 /* CSTR Isothermal nonIsobaric (Any Fluid Phase) */,
+				4B51FC89209D844C0017AB25 /* CSTR Isothermal Isobaric (Gas or Liquid) */,
+			);
+			path = "CSTR Isothermal (Isobaric or Nonisobaric)";
+			sourceTree = "<group>";
+		};
+		4B51FC89209D844C0017AB25 /* CSTR Isothermal Isobaric (Gas or Liquid) */ = {
+			isa = PBXGroup;
+			children = (
+				4B51FC8F209D85300017AB25 /* SearchChemicalEngineeringReactorDesignCSTRisothermalisobaric_liquidphaseORgasphase_ViewController.swift */,
+				4B51FC8A209D84700017AB25 /* CSTR Isothermal Isobaric Liquid (Choose Variable to Solve) */,
+				4B39754720B7C7C000EC3818 /* CSTR Isothermal Isobaric Gas (Choose Variable to Solve) */,
+			);
+			path = "CSTR Isothermal Isobaric (Gas or Liquid)";
+			sourceTree = "<group>";
+		};
+		4B51FC8A209D84700017AB25 /* CSTR Isothermal Isobaric Liquid (Choose Variable to Solve) */ = {
+			isa = PBXGroup;
+			children = (
+				4B51FC91209D85A80017AB25 /* SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift */,
+				4BD4B46520A7F4AF00397201 /* CSTR Isothermal Isobaric Liquid Solve for Volumetric Flow Rate */,
+				4BD4B46220A7EEB200397201 /* CSTR Isothermal Isobaric Liquid Solve for Rate Constant */,
+				4B2CC47920A784FA0019F510 /* CSTR Isothermal Isobaric Liquid Solve for Volume */,
+				4B51FC93209D8F0D0017AB25 /* CSTR Isothermal Isobaric Liquid Solve for Conversion */,
+			);
+			path = "CSTR Isothermal Isobaric Liquid (Choose Variable to Solve)";
+			sourceTree = "<group>";
+		};
+		4B51FC93209D8F0D0017AB25 /* CSTR Isothermal Isobaric Liquid Solve for Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				4B51FC96209D926B0017AB25 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORConversionViewController.swift */,
+			);
+			path = "CSTR Isothermal Isobaric Liquid Solve for Conversion";
+			sourceTree = "<group>";
+		};
+		4B58B68E20C26BDB00AD5A8D /* CSTR nonIsothermal nonIsobaric (Any Fluid Phase) */ = {
+			isa = PBXGroup;
+			children = (
+				4B58B68F20C2723C00AD5A8D /* SearchChemicalEngineeringReactorDesignCSTRNONisothermal_isobaricORnonisobaric_ViewController.swift */,
+				4B58B69120C272E500AD5A8D /* CSTR nonIsothermal nonIsobaric (Any Fluid Phase) */,
+			);
+			path = "CSTR nonIsothermal nonIsobaric (Any Fluid Phase)";
+			sourceTree = "<group>";
+		};
+		4B58B69120C272E500AD5A8D /* CSTR nonIsothermal nonIsobaric (Any Fluid Phase) */ = {
+			isa = PBXGroup;
+			children = (
+				4B58B69220C2739200AD5A8D /* SearchChemicalEngineeringReactorDesignCSTRNONisothermalNONisobaric_variableDensity_ViewController.swift */,
+				4B58B69420C273C100AD5A8D /* CSTR nonIsothermal nonIsobaric Variable Density Fluid (Choose Variable to Solve) */,
+			);
+			path = "CSTR nonIsothermal nonIsobaric (Any Fluid Phase)";
+			sourceTree = "<group>";
+		};
+		4B58B69420C273C100AD5A8D /* CSTR nonIsothermal nonIsobaric Variable Density Fluid (Choose Variable to Solve) */ = {
+			isa = PBXGroup;
+			children = (
+				4B58B69520C2743000AD5A8D /* SearchChemicalEngineeringReactorDesignCstrNONIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift */,
+				4B58B69720C2749200AD5A8D /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift */,
+				4BAAED2620C4B98B00051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift */,
+				4BAAED2420C4A07100051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumeViewController.swift */,
+				4BAAED2820C4C0FB00051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumetricFlowRateViewController.swift */,
+			);
+			path = "CSTR nonIsothermal nonIsobaric Variable Density Fluid (Choose Variable to Solve)";
+			sourceTree = "<group>";
+		};
+		4B5938AF206CA4B600FCBDE6 /* Engineering Discipline View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B5938B2206CA68C00FCBDE6 /* SearchEngineeringDisciplineViewController.swift */,
+				4B17A1582127BDF700046820 /* Chemistry */,
+				4B5DA55A2099C51900380AE7 /* EngineeringDisciplineAerospaceViewController */,
+				4B21AB10206F6A6000997C6C /* EngineeringDisciplineMechanicalViewController */,
+				4B21AB0E206F6A4200997C6C /* EngineeringDisciplineCivilViewController */,
+				4B21AB0F206F6A5100997C6C /* EngineeringDisciplineElectricalViewController */,
+				4B5938B4206CA98A00FCBDE6 /* EngineeringDisciplineChemicalViewController */,
+			);
+			path = "Engineering Discipline View Controller";
+			sourceTree = "<group>";
+		};
+		4B5938B4206CA98A00FCBDE6 /* EngineeringDisciplineChemicalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B5938B5206CAA2B00FCBDE6 /* SearchEngineeringDisciplineChemicalViewController.swift */,
+				4B5938B9206CB24400FCBDE6 /* SearchChemicalEngineeringSubjectFluidMechanicsTransportGeometryViewController */,
+			);
+			path = EngineeringDisciplineChemicalViewController;
+			sourceTree = "<group>";
+		};
+		4B5938B9206CB24400FCBDE6 /* SearchChemicalEngineeringSubjectFluidMechanicsTransportGeometryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B5938B7206CAD8A00FCBDE6 /* SearchChemicalEngineeringSubjectsFluidMechanicsTransportGeometryViewController.swift */,
+			);
+			path = SearchChemicalEngineeringSubjectFluidMechanicsTransportGeometryViewController;
+			sourceTree = "<group>";
+		};
+		4B5DA5352099875800380AE7 /* Search General Variables */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA5372099887F00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesViewController.swift */,
+				4B5DA5412099A3B300380AE7 /* Search Activation Energy */,
+				4B5DA5402099A3AD00380AE7 /* Search Reaction Rate (Final) */,
+				4B5DA53F2099A3A800380AE7 /* Search Reaction Rate (Initial) */,
+				4B5DA53E2099A3A500380AE7 /* Search Temperature (Final) */,
+				4B5DA5362099876300380AE7 /* Search Temperature (Initial) */,
+			);
+			path = "Search General Variables";
+			sourceTree = "<group>";
+		};
+		4B5DA5362099876300380AE7 /* Search Temperature (Initial) */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA53C2099914A00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift */,
+				4B5DA53B2099904100380AE7 /* Arrhenius */,
+			);
+			path = "Search Temperature (Initial)";
+			sourceTree = "<group>";
+		};
+		4B5DA53B2099904100380AE7 /* Arrhenius */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA539209989E500380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift */,
+			);
+			path = Arrhenius;
+			sourceTree = "<group>";
+		};
+		4B5DA53E2099A3A500380AE7 /* Search Temperature (Final) */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA5462099A54300380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift */,
+				4B5DA5422099A46E00380AE7 /* Arrhenius */,
+			);
+			path = "Search Temperature (Final)";
+			sourceTree = "<group>";
+		};
+		4B5DA53F2099A3A800380AE7 /* Search Reaction Rate (Initial) */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA5482099A5EE00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift */,
+				4B5DA5432099A47A00380AE7 /* Arrhenius */,
+			);
+			path = "Search Reaction Rate (Initial)";
+			sourceTree = "<group>";
+		};
+		4B5DA5402099A3AD00380AE7 /* Search Reaction Rate (Final) */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA54C2099A66200380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift */,
+				4B5DA5442099A48000380AE7 /* Arrhenius */,
+			);
+			path = "Search Reaction Rate (Final)";
+			sourceTree = "<group>";
+		};
+		4B5DA5412099A3B300380AE7 /* Search Activation Energy */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA5502099AD5200380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift */,
+				4B5DA5452099A48400380AE7 /* Arrhenius */,
+			);
+			path = "Search Activation Energy";
+			sourceTree = "<group>";
+		};
+		4B5DA5422099A46E00380AE7 /* Arrhenius */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA5522099AE1600380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift */,
+			);
+			path = Arrhenius;
+			sourceTree = "<group>";
+		};
+		4B5DA5432099A47A00380AE7 /* Arrhenius */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA5542099AE6E00380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift */,
+			);
+			path = Arrhenius;
+			sourceTree = "<group>";
+		};
+		4B5DA5442099A48000380AE7 /* Arrhenius */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA5562099AEC800380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift */,
+			);
+			path = Arrhenius;
+			sourceTree = "<group>";
+		};
+		4B5DA5452099A48400380AE7 /* Arrhenius */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA5582099AF1C00380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift */,
+			);
+			path = Arrhenius;
+			sourceTree = "<group>";
+		};
+		4B5DA55A2099C51900380AE7 /* EngineeringDisciplineAerospaceViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B5DA55B2099C5C000380AE7 /* SearchEngineeringDisciplineAerospaceViewController.swift */,
+				4B040C4620F1B65F00ED5298 /* Chemistry */,
+				4B66BF54209BC75B00EEB676 /* Circuits */,
+			);
+			path = EngineeringDisciplineAerospaceViewController;
+			sourceTree = "<group>";
+		};
+		4B66BF37209AC6D000EEB676 /* General Equations */ = {
+			isa = PBXGroup;
+			children = (
+				4B66BF38209AC74200EEB676 /* SearchEngineeringDisciplineElectricalGeneralEquationsViewController.swift */,
+				4B66BF3A209AD19B00EEB676 /* Variables To Solve */,
+			);
+			path = "General Equations";
+			sourceTree = "<group>";
+		};
+		4B66BF3A209AD19B00EEB676 /* Variables To Solve */ = {
+			isa = PBXGroup;
+			children = (
+				4B66BF3D209AD2EB00EEB676 /* ElectricalEngineeringGeneralEquationsCapacitanceViewController.swift */,
+				4B66BF47209AF9F800EEB676 /* ElectricalEngineeringGeneralEquationsChargeViewController.swift */,
+				4B66BF43209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsConductanceViewController.swift */,
+				4B66BF41209AF9F600EEB676 /* ElectricalEngineeringGeneralEquationsCurrentViewController.swift */,
+				4B66BF45209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsFrequencyViewController.swift */,
+				4B66BF44209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsImpedanceViewController.swift */,
+				4B66BF46209AF9F700EEB676 /* ElectricalEngineeringGeneralEquationsInductanceViewController.swift */,
+				4B66BF40209AF9F600EEB676 /* ElectricalEngineeringGeneralEquationsPeriodViewController.swift */,
+				4B66BF3F209AF9F500EEB676 /* ElectricalEngineeringGeneralEquationsPowerViewController.swift */,
+				4B66BF42209AF9F600EEB676 /* ElectricalEngineeringGeneralEquationsResistanceViewController.swift */,
+				4B66BF48209AF9F800EEB676 /* ElectricalEngineeringGeneralEquationsVoltageViewController.swift */,
+			);
+			path = "Variables To Solve";
+			sourceTree = "<group>";
+		};
+		4B66BF53209BC74E00EEB676 /* Circuits */ = {
+			isa = PBXGroup;
+			children = (
+				4B66BF57209BC80E00EEB676 /* SearchEngineeringDisciplineMechanicalGeneralEquationsViewController.swift */,
+			);
+			path = Circuits;
+			sourceTree = "<group>";
+		};
+		4B66BF54209BC75B00EEB676 /* Circuits */ = {
+			isa = PBXGroup;
+			children = (
+				4B66BF59209BC87F00EEB676 /* SearchEngineeringDisciplineAerospaceGeneralEquationsCircuitsViewController.swift */,
+			);
+			path = Circuits;
+			sourceTree = "<group>";
+		};
+		4B66BF5B209BDFC900EEB676 /* Continuously Stirred Tank Reactor */ = {
+			isa = PBXGroup;
+			children = (
+				4B51FC87209D83FC0017AB25 /* CSTR (Isothermal or Nonisothermal) */,
+			);
+			path = "Continuously Stirred Tank Reactor";
+			sourceTree = "<group>";
+		};
+		4B6E18FD20F5C74A000663A7 /* Circuit Components */ = {
+			isa = PBXGroup;
+			children = (
+				4B6E190120F5C86F000663A7 /* SearchEngineeringDisciplineElectricalCircuitComponentsViewController.swift */,
+				4B6E190020F5C7E5000663A7 /* Component Calculators */,
+			);
+			path = "Circuit Components";
+			sourceTree = "<group>";
+		};
+		4B6E190020F5C7E5000663A7 /* Component Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				4B2A646420FB30FC00763A25 /* SearchEngineeringDisciplineElectricalCircuitComponentsResistorBandNumberViewController.swift */,
+				4B2A646320FB306200763A25 /* Resistor Band Number */,
+			);
+			path = "Component Calculators";
+			sourceTree = "<group>";
+		};
+		4B7CD7BF20BD2F4A0099E3C1 /* CSTR Isothermal Isobaric Gas Solve for Volumetric Flow Rate */ = {
+			isa = PBXGroup;
+			children = (
+				4B7CD7C020BD2F980099E3C1 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumetricFlowRateViewController.swift */,
+			);
+			path = "CSTR Isothermal Isobaric Gas Solve for Volumetric Flow Rate";
+			sourceTree = "<group>";
+		};
+		4B7CD7C220BD47810099E3C1 /* Civil Engineering General Equations */ = {
+			isa = PBXGroup;
+			children = (
+				4B7CD7C320BD47D10099E3C1 /* SearchEngineeringDisciplineCivilGeneralEquationsViewController.swift */,
+				4B7CD7C520BD48EB0099E3C1 /* General Equations */,
+			);
+			path = "Civil Engineering General Equations";
+			sourceTree = "<group>";
+		};
+		4B7CD7C520BD48EB0099E3C1 /* General Equations */ = {
+			isa = PBXGroup;
+			children = (
+				4B7CD7C620BD49460099E3C1 /* CivilEngineeringGeneralEquationsConcentrationDilutionCalculatorViewController.swift */,
+			);
+			path = "General Equations";
+			sourceTree = "<group>";
+		};
+		4B7CD7C820BE61A10099E3C1 /* General Chemistry */ = {
+			isa = PBXGroup;
+			children = (
+				4B7CD7C920BE61D90099E3C1 /* SearchChemicalEngineeringSubjectsGeneralChemistryViewController.swift */,
+			);
+			path = "General Chemistry";
+			sourceTree = "<group>";
+		};
+		4B7CD7CB20BF75DB0099E3C1 /* CSTR Isothermal nonIsobaric (Any Fluid Phase) */ = {
+			isa = PBXGroup;
+			children = (
+				4B7CD7CE20BF773B0099E3C1 /* SearchChemicalEngineeringReactorDesignCSTRisothermalNONisobaric_variableDensity_ViewController.swift */,
+				4B7CD7CD20BF762E0099E3C1 /* CSTR Isothermal nonIsobaric Variable Density Fluid (Choose Variable to Solve) */,
+			);
+			name = "CSTR Isothermal nonIsobaric (Any Fluid Phase)";
+			path = "CSTR Isothermal nonIsobaric (Gas or Liquid)";
+			sourceTree = "<group>";
+		};
+		4B7CD7CD20BF762E0099E3C1 /* CSTR Isothermal nonIsobaric Variable Density Fluid (Choose Variable to Solve) */ = {
+			isa = PBXGroup;
+			children = (
+				4B7CD7D020BF79460099E3C1 /* SearchChemicalEngineeringReactorDesignCstrIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift */,
+				4B29143120C0D98400F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift */,
+				4B29143320C1006100F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift */,
+				4B7CD7D220BF7AE70099E3C1 /* ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_Volume_ViewController.swift */,
+				4B29143720C1383B00F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORFinalPressureViewController.swift */,
+				4B29143920C2268D00F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORInitialPressureViewController.swift */,
+				4B29143520C1109100F56F37 /* ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_VolumetricFlowRate_ViewController.swift */,
+			);
+			path = "CSTR Isothermal nonIsobaric Variable Density Fluid (Choose Variable to Solve)";
+			sourceTree = "<group>";
+		};
+		4B88E9172096F9C600EE35DD /* Reactor_Design */ = {
+			isa = PBXGroup;
+			children = (
+				4B88E9182096FC9F00EE35DD /* SearchChemicalEngineeringReactorDesignViewController.swift */,
+				4B66BF5B209BDFC900EEB676 /* Continuously Stirred Tank Reactor */,
+				4BD4B46820A7FB6F00397201 /* Plug Flow Reactor */,
+				4B5DA5352099875800380AE7 /* Search General Variables */,
+			);
+			path = Reactor_Design;
+			sourceTree = "<group>";
+		};
+		4B8B6CCE2068CDF20027697E /* Fugacity */ = {
+			isa = PBXGroup;
+			children = (
+				4B21AAFB206E1C9800997C6C /* Pure Component */,
+				4B21AAFA206E1C8E00997C6C /* Binary Mixture */,
+				4B21AAF9206E1C7A00997C6C /* Ternary Mixture */,
+			);
+			path = Fugacity;
+			sourceTree = "<group>";
+		};
+		4B8B6CD02068CE070027697E /* Fugacity Coefficient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Fugacity Coefficient";
+			sourceTree = "<group>";
+		};
+		4B96900720B80D9600623999 /* CSTR Isothermal Isobaric Gas Solve for Rate Constant */ = {
+			isa = PBXGroup;
+			children = (
+				4B96900820B80DAF00623999 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORrateConstantViewController.swift */,
+			);
+			name = "CSTR Isothermal Isobaric Gas Solve for Rate Constant";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4B96900A20BA766200623999 /* CSTR Isothermal Isobaric Liquid Solve for Volume */ = {
+			isa = PBXGroup;
+			children = (
+				4B96900B20BA76E700623999 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumeViewController.swift */,
+			);
+			path = "CSTR Isothermal Isobaric Liquid Solve for Volume";
+			sourceTree = "<group>";
+		};
+		4BCE16A221D6EC5A007BBF78 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE16A721D6ED04007BBF78 /* calcOperatorDelegate.swift */,
+				4BCE16A821D6ED05007BBF78 /* CalculatorTapeViewController.swift */,
+				4BCE16AB21D6ED07007BBF78 /* instantiatedMagentaViewController.swift */,
+				4BCE16AC21D6ED08007BBF78 /* instantiatedOrangeViewController.swift */,
+				4BCE16AE21D6ED0A007BBF78 /* instantiatedCyanViewController.swift */,
+				4BCE16A921D6ED05007BBF78 /* instantiatedYellowViewController.swift */,
+				4BCE16AA21D6ED06007BBF78 /* myCalculatorViewController.swift */,
+				4BCE16AD21D6ED09007BBF78 /* rootPageViewController.swift */,
+				4BCE16B721D6EEA9007BBF78 /* UIButtonExtension.swift */,
+				4B1B254221D98DAA00C4844C /* myCircularButtons.swift */,
+				4BCE16A521D6ECBA007BBF78 /* refactored_calculator_storyboard.storyboard */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		4BD4B46220A7EEB200397201 /* CSTR Isothermal Isobaric Liquid Solve for Rate Constant */ = {
+			isa = PBXGroup;
+			children = (
+				4BD4B46320A7EF1C00397201 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORRateConstantViewController.swift */,
+			);
+			path = "CSTR Isothermal Isobaric Liquid Solve for Rate Constant";
+			sourceTree = "<group>";
+		};
+		4BD4B46520A7F4AF00397201 /* CSTR Isothermal Isobaric Liquid Solve for Volumetric Flow Rate */ = {
+			isa = PBXGroup;
+			children = (
+				4BD4B46620A7F51A00397201 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumetricFlowRateViewController.swift */,
+			);
+			path = "CSTR Isothermal Isobaric Liquid Solve for Volumetric Flow Rate";
+			sourceTree = "<group>";
+		};
+		4BD4B46820A7FB6F00397201 /* Plug Flow Reactor */ = {
+			isa = PBXGroup;
+			children = (
+				4BD4B46920A7FBCF00397201 /* PFR (Isothermal or Nonisothermal) */,
+			);
+			path = "Plug Flow Reactor";
+			sourceTree = "<group>";
+		};
+		4BD4B46920A7FBCF00397201 /* PFR (Isothermal or Nonisothermal) */ = {
+			isa = PBXGroup;
+			children = (
+				4BD4B46D20A7FD3F00397201 /* SearchChemicalEngineeringReactorDesignPFR_isothermalORnonisothermal_ViewController.swift */,
+				4BD4B46A20A7FBF800397201 /* PFR nonIsothermal (Isobaric or Nonisobaric) */,
+			);
+			path = "PFR (Isothermal or Nonisothermal)";
+			sourceTree = "<group>";
+		};
+		4BD4B46A20A7FBF800397201 /* PFR nonIsothermal (Isobaric or Nonisobaric) */ = {
+			isa = PBXGroup;
+			children = (
+				4BD4B46F20A7FD4E00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermal_isobaricORnonisobaric_ViewController.swift */,
+				4BD4B46B20A7FC2900397201 /* PFR nonIsothermal Isobaric (Gas or Liquid) */,
+			);
+			path = "PFR nonIsothermal (Isobaric or Nonisobaric)";
+			sourceTree = "<group>";
+		};
+		4BD4B46B20A7FC2900397201 /* PFR nonIsothermal Isobaric (Gas or Liquid) */ = {
+			isa = PBXGroup;
+			children = (
+				4BD4B47120A7FD5C00397201 /* SearchChemicalEngineeringReactorDesignPFRnonisothermalisobaric_liquidphaseORgasphase_ViewController.swift */,
+				4BD4B46C20A7FC5700397201 /* PFR nonIsothermal Isobaric Liquid (Choose Variable to Solve) */,
+			);
+			path = "PFR nonIsothermal Isobaric (Gas or Liquid)";
+			sourceTree = "<group>";
+		};
+		4BD4B46C20A7FC5700397201 /* PFR nonIsothermal Isobaric Liquid (Choose Variable to Solve) */ = {
+			isa = PBXGroup;
+			children = (
+				4BD4B47320A7FD6D00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift */,
+				4BD4B47520A8011D00397201 /* PFR nonIsothermal Isobaric Liquid Solve for Conversion */,
+			);
+			path = "PFR nonIsothermal Isobaric Liquid (Choose Variable to Solve)";
+			sourceTree = "<group>";
+		};
+		4BD4B47520A8011D00397201 /* PFR nonIsothermal Isobaric Liquid Solve for Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				4BD4B47920A80DCC00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVariableConversionReactionOrderViewController.swift */,
+				4BD4B47820A80D7000397201 /* PFR nonIsothermal Isobaric Liquid Solve for Conversion (Second Order) */,
+			);
+			path = "PFR nonIsothermal Isobaric Liquid Solve for Conversion";
+			sourceTree = "<group>";
+		};
+		4BD4B47820A80D7000397201 /* PFR nonIsothermal Isobaric Liquid Solve for Conversion (Second Order) */ = {
+			isa = PBXGroup;
+			children = (
+				4BF81DC420ABF18E00B3ABB4 /* ChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseSolveFORConversion_deltaXdeltaV_ViewController.swift */,
+			);
+			path = "PFR nonIsothermal Isobaric Liquid Solve for Conversion (Second Order)";
+			sourceTree = "<group>";
+		};
+		4BD73F76208275A700F87440 /* Separations */ = {
+			isa = PBXGroup;
+			children = (
+				4BD73F77208275D200F87440 /* SearchChemicalEngineeringSeparationsViewController.swift */,
+				4BD73F792082760000F87440 /* Vapor Liquid Equilibrium */,
+			);
+			path = Separations;
+			sourceTree = "<group>";
+		};
+		4BD73F792082760000F87440 /* Vapor Liquid Equilibrium */ = {
+			isa = PBXGroup;
+			children = (
+				4BD73F7A2082761200F87440 /* SearchChemicalEngineeringSeparationsVaporLiquidEquilibriumViewController.swift */,
+				4BD73F7C2082762F00F87440 /* McCabe Thiele (Vapor Liquid Equilibrium) */,
+			);
+			path = "Vapor Liquid Equilibrium";
+			sourceTree = "<group>";
+		};
+		4BD73F7C2082762F00F87440 /* McCabe Thiele (Vapor Liquid Equilibrium) */ = {
+			isa = PBXGroup;
+			children = (
+				4BF1C50B20883BEF00FE2E22 /* BasicChartViewController.swift */,
+				4BF1C5032088301000FE2E22 /* Chart.swift */,
+				4BF1C5042088301100FE2E22 /* ChartColors.swift */,
+				4BF1C5052088301100FE2E22 /* ChartSeries.swift */,
+			);
+			path = "McCabe Thiele (Vapor Liquid Equilibrium)";
+			sourceTree = "<group>";
+		};
+		723BD330EFF7A17ABDFF5C01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0FAE6BC4C0FD45131CB50C7 /* Pods-CHE Equations.debug.xcconfig */,
+				E81F4A63BA73A8D82CA76013 /* Pods-CHE Equations.release.xcconfig */,
+				1C919C0B9E3A9505344D9657 /* Pods-iEngineering.debug.xcconfig */,
+				DA46E93E1239B0FDF8CE4AC6 /* Pods-iEngineering.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA960E1D1FC14BE400E46F03 = {
+			isa = PBXGroup;
+			children = (
+				EA5603B92008C48800E01B50 /* Candy.swift */,
+				EA5603B52008C48400E01B50 /* CandyTheme.swift */,
+				EA5603B82008C48700E01B50 /* DetailViewController.swift */,
+				4B5938AF206CA4B600FCBDE6 /* Engineering Discipline View Controller */,
+				4B7CD7C820BE61A10099E3C1 /* General Chemistry */,
+				4B46D501206647CF001FB9D3 /* Thermodynamics */,
+				4BD73F76208275A700F87440 /* Separations */,
+				4B88E9172096F9C600EE35DD /* Reactor_Design */,
+				4B46D4FE206635DD001FB9D3 /* Fluid_Mechanics */,
+				EA5603B72008C48600E01B50 /* SearchFooter.swift */,
+				4B32117A2338572A00B527A5 /* MyProgrammaticallyTableViewController.m */,
+				EAE658842007973700178004 /* MyProgrammaticallyTableViewController.h */,
+				EA960E281FC14BE500E46F03 /* iEngineering */,
+				EA960E3D1FC14BE500E46F03 /* iEngineeringTests */,
+				EA960E481FC14BE500E46F03 /* iEngineeringUITests */,
+				EAD21A8A1FF9B4DB007EF55D /* customKeyboard */,
+				EA960E271FC14BE500E46F03 /* Products */,
+				723BD330EFF7A17ABDFF5C01 /* Pods */,
+				4353CEB6D9705D443FAA4AC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA960E271FC14BE500E46F03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA960E261FC14BE500E46F03 /* iEngineering.app */,
+				EA960E3A1FC14BE500E46F03 /* iEngineeringTests.xctest */,
+				EA960E451FC14BE500E46F03 /* iEngineeringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA960E281FC14BE500E46F03 /* iEngineering */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE16A221D6EC5A007BBF78 /* Calculator */,
+				EA960E291FC14BE500E46F03 /* AppDelegate.swift */,
+				EA960E2B1FC14BE500E46F03 /* ViewController.swift */,
+				EAC12DED1FED0254002BEB47 /* CollectionViewCell.swift */,
+				4B63195B21D2A328000716AE /* Main.storyboard */,
+				4BB45C9121D42C8500717604 /* refactoredAerospace_generalEquations_Circuits_storyboard.storyboard */,
+				4BB45C9521D4403C00717604 /* refactoredElectrical_generalEquations_Circuits_storyboard.storyboard */,
+				4B32117C2338580B00B527A5 /* refactoredMechanical_generalEquations_Circuits_storyboard.storyboard */,
+				EA39A6072002034000D8F52C /* FluidMechanicsTableViewController.swift */,
+				EAD75BE12005E76E008E21F0 /* FluidMechanicsProgrammaticallyTableViewController.swift */,
+				EAB563D420007227000C3DD3 /* FluidMechanicsTankEvacuationAndFillingViewController.swift */,
+				EA11B29B1FCB07F500B94CF6 /* SWRevealViewController.m */,
+				EA11B29C1FCB07F500B94CF6 /* SWRevealViewController.h */,
+				EA960E301FC14BE500E46F03 /* Assets.xcassets */,
+				EA960E321FC14BE500E46F03 /* LaunchScreen.storyboard */,
+				EA11B2A41FCB24A500B94CF6 /* FluidMechanicsRectangularPipeViewController.swift */,
+				EA960E351FC14BE500E46F03 /* Info.plist */,
+				EA11B29A1FCB025A00B94CF6 /* iEngineering-Bridging-Header.h */,
+				EA33F4B21FFE438A007A017D /* FluidMechanicsCircularPipeViewController.swift */,
+			);
+			path = iEngineering;
+			sourceTree = "<group>";
+		};
+		EA960E3D1FC14BE500E46F03 /* iEngineeringTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA960E3E1FC14BE500E46F03 /* PengRobEOSTests.swift */,
+				EA960E401FC14BE500E46F03 /* Info.plist */,
+			);
+			path = iEngineeringTests;
+			sourceTree = "<group>";
+		};
+		EA960E481FC14BE500E46F03 /* iEngineeringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA960E491FC14BE600E46F03 /* PengRobEOSUITests.swift */,
+				EA960E4B1FC14BE600E46F03 /* Info.plist */,
+			);
+			path = iEngineeringUITests;
+			sourceTree = "<group>";
+		};
+		EAD21A8A1FF9B4DB007EF55D /* customKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EAD21A8B1FF9B4DB007EF55D /* KeyboardViewController.swift */,
+				EAD21A8D1FF9B4DB007EF55D /* Info.plist */,
+			);
+			path = customKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA960E251FC14BE500E46F03 /* iEngineering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA960E4E1FC14BE600E46F03 /* Build configuration list for PBXNativeTarget "iEngineering" */;
+			buildPhases = (
+				66AED2963B29C1B52B2F6979 /* [CP] Check Pods Manifest.lock */,
+				EA960E221FC14BE500E46F03 /* Sources */,
+				EA960E231FC14BE500E46F03 /* Frameworks */,
+				EA960E241FC14BE500E46F03 /* Resources */,
+				EAD21A941FF9B4DC007EF55D /* Embed App Extensions */,
+				A74527BB0B22381CA97D1832 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iEngineering;
+			productName = PengRobEOS;
+			productReference = EA960E261FC14BE500E46F03 /* iEngineering.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA960E391FC14BE500E46F03 /* iEngineeringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA960E511FC14BE600E46F03 /* Build configuration list for PBXNativeTarget "iEngineeringTests" */;
+			buildPhases = (
+				EA960E361FC14BE500E46F03 /* Sources */,
+				EA960E371FC14BE500E46F03 /* Frameworks */,
+				EA960E381FC14BE500E46F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA960E3C1FC14BE500E46F03 /* PBXTargetDependency */,
+			);
+			name = iEngineeringTests;
+			productName = PengRobEOSTests;
+			productReference = EA960E3A1FC14BE500E46F03 /* iEngineeringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA960E441FC14BE500E46F03 /* iEngineeringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA960E541FC14BE600E46F03 /* Build configuration list for PBXNativeTarget "iEngineeringUITests" */;
+			buildPhases = (
+				EA960E411FC14BE500E46F03 /* Sources */,
+				EA960E421FC14BE500E46F03 /* Frameworks */,
+				EA960E431FC14BE500E46F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA960E471FC14BE500E46F03 /* PBXTargetDependency */,
+			);
+			name = iEngineeringUITests;
+			productName = PengRobEOSUITests;
+			productReference = EA960E451FC14BE500E46F03 /* iEngineeringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA960E1E1FC14BE400E46F03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = iEngineering;
+				TargetAttributes = {
+					EA960E251FC14BE500E46F03 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 27J6BVV357;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					EA960E391FC14BE500E46F03 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA960E251FC14BE500E46F03;
+					};
+					EA960E441FC14BE500E46F03 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA960E251FC14BE500E46F03;
+					};
+				};
+			};
+			buildConfigurationList = EA960E211FC14BE400E46F03 /* Build configuration list for PBXProject "iEngineering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = EA960E1D1FC14BE400E46F03;
+			productRefGroup = EA960E271FC14BE500E46F03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA960E251FC14BE500E46F03 /* iEngineering */,
+				EA960E391FC14BE500E46F03 /* iEngineeringTests */,
+				EA960E441FC14BE500E46F03 /* iEngineeringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA960E241FC14BE500E46F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE16A621D6ECBA007BBF78 /* refactored_calculator_storyboard.storyboard in Resources */,
+				4B63195C21D2A328000716AE /* Main.storyboard in Resources */,
+				4B32117D2338580B00B527A5 /* refactoredMechanical_generalEquations_Circuits_storyboard.storyboard in Resources */,
+				4B1BF16E23387C8A0017CD8B /* iEngineering.app in Resources */,
+				4BB45C9621D4404200717604 /* refactoredElectrical_generalEquations_Circuits_storyboard.storyboard in Resources */,
+				4BB45C9221D42C8600717604 /* refactoredAerospace_generalEquations_Circuits_storyboard.storyboard in Resources */,
+				EA960E341FC14BE500E46F03 /* LaunchScreen.storyboard in Resources */,
+				EA960E311FC14BE500E46F03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA960E381FC14BE500E46F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA960E431FC14BE500E46F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66AED2963B29C1B52B2F6979 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iEngineering-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74527BB0B22381CA97D1832 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iEngineering/Pods-iEngineering-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Pages/Pages.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SidebarOverlay/SidebarOverlay.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SidebarOverlay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iEngineering/Pods-iEngineering-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA960E221FC14BE500E46F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD75BE22005E76E008E21F0 /* FluidMechanicsProgrammaticallyTableViewController.swift in Sources */,
+				4BA1CBFE2067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsFrictionFactorViewController.swift in Sources */,
+				4B4264062067524400570B47 /* SearchVariablesFluidMechanicsGoToReynoldsNumberViewController.swift in Sources */,
+				4BF81DC520ABF18F00B3ABB4 /* ChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseSolveFORConversion_deltaXdeltaV_ViewController.swift in Sources */,
+				4B39754A20B7C8CC00EC3818 /* SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricGasPhaseVARIABLEStoSOLVEViewController.swift in Sources */,
+				4B42641920675F6200570B47 /* SearchVariablesFluidMechanicsRectangularPipeShearStressViewController.swift in Sources */,
+				4B5DA5592099AF1D00380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift in Sources */,
+				4B6E18FF20F5C78C000663A7 /* ElectricalEngineeringCircuitComponentsResistorValueCalculatorViewController.swift in Sources */,
+				4B4264282067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereArchimedesNumberViewController.swift in Sources */,
+				4BF1C5082088301100FE2E22 /* ChartSeries.swift in Sources */,
+				4B5938B3206CA68C00FCBDE6 /* SearchEngineeringDisciplineViewController.swift in Sources */,
+				4B5DA53A209989E600380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift in Sources */,
+				4B8C3B8C20F87E67001339C9 /* ElectricalEngineeringCircuitComponentsResistorValueCALCULATIONS.swift in Sources */,
+				4B21AB02206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift in Sources */,
+				4BD4B47220A7FD5D00397201 /* SearchChemicalEngineeringReactorDesignPFRnonisothermalisobaric_liquidphaseORgasphase_ViewController.swift in Sources */,
+				4BF1C50C20883BF000FE2E22 /* BasicChartViewController.swift in Sources */,
+				4BD4B47420A7FD6E00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift in Sources */,
+				4B5DA5572099AEC800380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift in Sources */,
+				4BD4B46E20A7FD3F00397201 /* SearchChemicalEngineeringReactorDesignPFR_isothermalORnonisothermal_ViewController.swift in Sources */,
+				4B2CC47D20A78C5C0019F510 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumeViewController.swift in Sources */,
+				4BAAED2520C4A07200051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumeViewController.swift in Sources */,
+				4B66BF4D209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsConductanceViewController.swift in Sources */,
+				4B66BF51209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsChargeViewController.swift in Sources */,
+				EA5603BA2008C48900E01B50 /* CandyTheme.swift in Sources */,
+				4B5938AE206C0EE700FCBDE6 /* ThermodynamicsFugacityThreeComponentMixtureTwoTermVirialVaporEOSViewController.swift in Sources */,
+				4B5938B8206CAD8B00FCBDE6 /* SearchChemicalEngineeringSubjectsFluidMechanicsTransportGeometryViewController.swift in Sources */,
+				4B2A646820FB334100763A25 /* ElectricalEngineeringCircuitComponentsResistorValueCalculator5ColorBandViewController.swift in Sources */,
+				4B42640B2067524400570B47 /* SearchVariablesFluidMechanicsGoToDiameterTurbulentViewController.swift in Sources */,
+				4B46D51120666570001FB9D3 /* SearchVariablesThermodynamicsHeatCapacityViewController.swift in Sources */,
+				4B42640A2067524400570B47 /* SearchVariablesFluidMechanicsGoToLengthHydrodynamicEntryViewController.swift in Sources */,
+				4B17A15C2127BE9E00046820 /* SearchEngineeringDisciplineChemistryViewController.swift in Sources */,
+				4BA1CC032067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsVelocitySuperficialViewController.swift in Sources */,
+				4BE644B2206B1E540028B863 /* ThermodynamicsFugacityThreeComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift in Sources */,
+				4B5DA5532099AE1700380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift in Sources */,
+				4B46D500206637EC001FB9D3 /* SearchVariablesThermodynamicsCompressibilityFactorViewController.swift in Sources */,
+				4B040C4820F29DF000ED5298 /* SearchEngineeringDisciplineAerospaceChemistryViewController.swift in Sources */,
+				4B39754C20B7C8D700EC3818 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORConversionViewController.swift in Sources */,
+				4B5DA55C2099C5C000380AE7 /* SearchEngineeringDisciplineAerospaceViewController.swift in Sources */,
+				4B5938B6206CAA2B00FCBDE6 /* SearchEngineeringDisciplineChemicalViewController.swift in Sources */,
+				4B32117B2338572A00B527A5 /* MyProgrammaticallyTableViewController.m in Sources */,
+				4B46D50E20666570001FB9D3 /* SearchVariablesThermodynamicsCompositionPhaseFractionsViewController.swift in Sources */,
+				4B1B254321D98DAA00C4844C /* myCircularButtons.swift in Sources */,
+				4B42641C206768FE00570B47 /* SearchVariablesFluidMechanicsGoToFrictionalDissipationViewController.swift in Sources */,
+				4B7CD7CF20BF773B0099E3C1 /* SearchChemicalEngineeringReactorDesignCSTRisothermalNONisobaric_variableDensity_ViewController.swift in Sources */,
+				4B5DA53D2099914B00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureInitialArrheniusViewController.swift in Sources */,
+				4BCE16B121D6ED0A007BBF78 /* instantiatedYellowViewController.swift in Sources */,
+				4B29143220C0D98500F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift in Sources */,
+				4BD73F7B2082761200F87440 /* SearchChemicalEngineeringSeparationsVaporLiquidEquilibriumViewController.swift in Sources */,
+				4B21AB09206F423100997C6C /* ThermodynamicsFugacityPureComponentMixturePengRobinsonVaporEOSViewController.swift in Sources */,
+				4B66BF4E209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsImpedanceViewController.swift in Sources */,
+				4B7CD7C420BD47D10099E3C1 /* SearchEngineeringDisciplineCivilGeneralEquationsViewController.swift in Sources */,
+				4B46D50D20666570001FB9D3 /* SearchVariablesThermodynamicsTemperatureSaturationViewController.swift in Sources */,
+				4B51FC97209D926B0017AB25 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORConversionViewController.swift in Sources */,
+				4B5DA5492099A5EE00380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift in Sources */,
+				4B6E190220F5C870000663A7 /* SearchEngineeringDisciplineElectricalCircuitComponentsViewController.swift in Sources */,
+				4B51FC8E209D851B0017AB25 /* SearchChemicalEngineeringReactorDesignCSTRisothermal_isobaricORnonisobaric_ViewController.swift in Sources */,
+				4B66BF49209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsPowerViewController.swift in Sources */,
+				4B29143820C1383C00F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORFinalPressureViewController.swift in Sources */,
+				4B5DA5382099888000380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesViewController.swift in Sources */,
+				4BA1CC08206812FD0040C4E0 /* SearchVariablesFluidMechanicsTankEvacuationAndFillingViewController.swift in Sources */,
+				4B66BF5A209BC87F00EEB676 /* SearchEngineeringDisciplineAerospaceGeneralEquationsCircuitsViewController.swift in Sources */,
+				4BCE16B821D6EEA9007BBF78 /* UIButtonExtension.swift in Sources */,
+				4BA1CC022067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsPorosityFractionViewController.swift in Sources */,
+				4B5DA5552099AE6E00380AE7 /* ChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureInitialArrheniusViewController.swift in Sources */,
+				4B58B69620C2743000AD5A8D /* SearchChemicalEngineeringReactorDesignCstrNONIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift in Sources */,
+				EAB563D520007227000C3DD3 /* FluidMechanicsTankEvacuationAndFillingViewController.swift in Sources */,
+				4B7CD7D320BF7AE80099E3C1 /* ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_Volume_ViewController.swift in Sources */,
+				4B51FC8C209D85080017AB25 /* SearchChemicalEngineeringReactorDesignCSTR_isothermalORnonisothermal_ViewController.swift in Sources */,
+				EAC12DEE1FED0254002BEB47 /* CollectionViewCell.swift in Sources */,
+				EA33F4B31FFE438A007A017D /* FluidMechanicsCircularPipeViewController.swift in Sources */,
+				4BD73F78208275D200F87440 /* SearchChemicalEngineeringSeparationsViewController.swift in Sources */,
+				4B42640C2067524400570B47 /* SearchVariablesFluidMechanicsGoToShearStressViewController.swift in Sources */,
+				4B4264272067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereReynoldsNumberViewController.swift in Sources */,
+				4B58B69020C2723C00AD5A8D /* SearchChemicalEngineeringReactorDesignCSTRNONisothermal_isobaricORnonisobaric_ViewController.swift in Sources */,
+				4B4264072067524400570B47 /* SearchVariablesFluidMechanicsGoToHeadLossTurbulentViewController.swift in Sources */,
+				4B42641A20675F6200570B47 /* SearchVariablesFluidMechanicsRectangularPipeVelocityViewController.swift in Sources */,
+				4BA1CC07206812FD0040C4E0 /* SearchVariablesFluidMechanicsTankEvacuationAndFillingTimeViewController.swift in Sources */,
+				4B4264112067524400570B47 /* SearchVariablesFluidMechanicsGoToVolumetricFlowRateLaminarViewController.swift in Sources */,
+				4B21AB01206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureTwoTermVirialVaporEOSViewController.swift in Sources */,
+				4BD4B46720A7F51B00397201 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORVolumetricFlowRateViewController.swift in Sources */,
+				4B4264262067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereVelocityViewController.swift in Sources */,
+				4BCE16B221D6ED0A007BBF78 /* myCalculatorViewController.swift in Sources */,
+				4B7CD7C720BD49460099E3C1 /* CivilEngineeringGeneralEquationsConcentrationDilutionCalculatorViewController.swift in Sources */,
+				4B21AB12206F6AEF00997C6C /* SearchEngineeringDisciplineCivilViewController.swift in Sources */,
+				4B29143620C1109100F56F37 /* ChemicalEngineeringReactorDesignCSTRisothermalNONIsobaricAnyPhaseVariableDensityVARIABLEtoSOLVE_VolumetricFlowRate_ViewController.swift in Sources */,
+				4B8B6CD22068CE490027697E /* ThermodynamicsFugacityThreeComponentMixturePengRobinsonVaporEOSViewController.swift in Sources */,
+				4B21AB16206F6B0400997C6C /* SearchEngineeringDisciplineMechanicalViewController.swift in Sources */,
+				EA5603BC2008C48900E01B50 /* SearchFooter.swift in Sources */,
+				4B4264102067524400570B47 /* SearchVariablesFluidMechanicsGoToFrictionFactorTurbulentViewController.swift in Sources */,
+				4B21AAF8206E1C6100997C6C /* SearchVariablesThermodynamicsSubFugacityBinaryPureCompenentsViewController.swift in Sources */,
+				4B7CD7CA20BE61D90099E3C1 /* SearchChemicalEngineeringSubjectsGeneralChemistryViewController.swift in Sources */,
+				EA960E2C1FC14BE500E46F03 /* ViewController.swift in Sources */,
+				4B2A646520FB30FC00763A25 /* SearchEngineeringDisciplineElectricalCircuitComponentsResistorBandNumberViewController.swift in Sources */,
+				4B46D51020666570001FB9D3 /* SearchVariablesThermodynamicsPressureSaturationViewController.swift in Sources */,
+				4B4264032067524400570B47 /* SearchVariablesFluidMechanicsGoToVelocityCompressibleGasViewController.swift in Sources */,
+				4B2A646920FB334100763A25 /* ElectricalEngineeringCircuitComponentsResistorValueCalculator6ColorBandViewController.swift in Sources */,
+				4BD4B47020A7FD4F00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermal_isobaricORnonisobaric_ViewController.swift in Sources */,
+				4B42640F2067524400570B47 /* SearchVariablesFluidMechanicsGoToVelocityLaminarViewController.swift in Sources */,
+				4B42640E2067524400570B47 /* SearchVariablesFluidMechanicsGoToHeadLossViewController.swift in Sources */,
+				4B4264012067524400570B47 /* SearchVariablesFluidMechanicsGoToDiameterLaminarViewController.swift in Sources */,
+				4BD73F722082713900F87440 /* SearchVariablesThermodynamicsCompositionMoleFractionsViewController.swift in Sources */,
+				4BA1CBFF2067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsViewController.swift in Sources */,
+				4B17A15E2127BF5D00046820 /* SearchEngineeringDisciplineChemistryGeneralViewController.swift in Sources */,
+				4B51FC92209D85A80017AB25 /* SearchChemicalEngineeringReactorDesignCstrIsothermalIsobaricLiquidPhaseVARIABLEStoSOLVEViewController.swift in Sources */,
+				4B66BF4A209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsPeriodViewController.swift in Sources */,
+				4B0909D52068F4F60025A770 /* SearchVariablesThermodynamicsSubFugacityTernaryPureCompenentsViewController.swift in Sources */,
+				4B4264042067524400570B47 /* SearchVariablesFluidMechanicsGoToPressureDropLaminarViewController.swift in Sources */,
+				EA960E2A1FC14BE500E46F03 /* AppDelegate.swift in Sources */,
+				4B29143A20C2269100F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORInitialPressureViewController.swift in Sources */,
+				4B66BF4B209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsCurrentViewController.swift in Sources */,
+				EA5603BD2008C48900E01B50 /* DetailViewController.swift in Sources */,
+				4BCE16B421D6ED0A007BBF78 /* instantiatedOrangeViewController.swift in Sources */,
+				4B46D50B20666570001FB9D3 /* SearchVariablesThermodynamicsEntropyIdealViewController.swift in Sources */,
+				4B66BF52209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsVoltageViewController.swift in Sources */,
+				4B88E9192096FC9F00EE35DD /* SearchChemicalEngineeringReactorDesignViewController.swift in Sources */,
+				4BA1CC012067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsPressureDropViewController.swift in Sources */,
+				4B21AB0B206F423100997C6C /* ThermodynamicsFugacityPureComponentMixtureRedlichKwongVaporEOSViewController.swift in Sources */,
+				4B29143420C1006200F56F37 /* ChemicalEngineeringReactorDesignCSTRIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift in Sources */,
+				4B46D50F20666570001FB9D3 /* SearchVariablesThermodynamicsPressureViewController.swift in Sources */,
+				4B42640D2067524400570B47 /* SearchVariablesFluidMechanicsGoToVolumetricFlowRateTurbulentViewController.swift in Sources */,
+				4B66BF39209AC74200EEB676 /* SearchEngineeringDisciplineElectricalGeneralEquationsViewController.swift in Sources */,
+				4B66BF50209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsInductanceViewController.swift in Sources */,
+				4B66BF4F209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsFrequencyViewController.swift in Sources */,
+				4B51FC90209D85310017AB25 /* SearchChemicalEngineeringReactorDesignCSTRisothermalisobaric_liquidphaseORgasphase_ViewController.swift in Sources */,
+				4B4264292067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereFrictionFactorViewController.swift in Sources */,
+				4BD4B46420A7EF1C00397201 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricLiquidPhaseSolveFORRateConstantViewController.swift in Sources */,
+				4B21AB0D206F42C800997C6C /* SearchVariablesThermodynamicsSubFugacityPureCompenentsViewController.swift in Sources */,
+				4BF1C5062088301100FE2E22 /* Chart.swift in Sources */,
+				4B58B69820C2749200AD5A8D /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORConversionViewController.swift in Sources */,
+				4BA1CC002067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsReynoldsNumberViewController.swift in Sources */,
+				4BCE16B521D6ED0A007BBF78 /* rootPageViewController.swift in Sources */,
+				4BCE16B021D6ED0A007BBF78 /* CalculatorTapeViewController.swift in Sources */,
+				4B7CD7C120BD2F980099E3C1 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumetricFlowRateViewController.swift in Sources */,
+				4BF1C5072088301100FE2E22 /* ChartColors.swift in Sources */,
+				4B5DA5472099A54300380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesTemperatureFinalArrheniusViewController.swift in Sources */,
+				4B4264252067764F00570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereDiameterOfParticleViewController.swift in Sources */,
+				EA5603BE2008C48900E01B50 /* Candy.swift in Sources */,
+				4B58B69320C2739200AD5A8D /* SearchChemicalEngineeringReactorDesignCSTRNONisothermalNONisobaric_variableDensity_ViewController.swift in Sources */,
+				4B7CD7D120BF79460099E3C1 /* SearchChemicalEngineeringReactorDesignCstrIsothermalNONIsobaric_VariableDensityFluid_VARIABLEStoSOLVEViewController.swift in Sources */,
+				4B42641E206774F200570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereViewController.swift in Sources */,
+				4BF7E9642068C3A600D656C0 /* SearchVariablesThermodynamicsFugacityViewController.swift in Sources */,
+				4BCE16B621D6ED0A007BBF78 /* instantiatedCyanViewController.swift in Sources */,
+				4BD4B47A20A80DCD00397201 /* SearchChemicalEngineeringReactorDesignPFRnonIsothermalIsobaricLiquidPhaseVariableConversionReactionOrderViewController.swift in Sources */,
+				4B96900C20BA76E800623999 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORVolumeViewController.swift in Sources */,
+				4B8C3B8A20F8548A001339C9 /* ElectricalEngineeringCircuitComponentsResistorValueCONSTANTSforCalculatorViewController.swift in Sources */,
+				4B96900920B80DB000623999 /* ChemicalEngineeringReactorDesignCSTRIsothermalIsobaricGasPhaseSolveFORrateConstantViewController.swift in Sources */,
+				4B21AB14206F6AFA00997C6C /* SearchEngineeringDisciplineElectricalViewController.swift in Sources */,
+				EA39A6082002034000D8F52C /* FluidMechanicsTableViewController.swift in Sources */,
+				4BF7E9632068C3A600D656C0 /* SearchVariablesThermodynamicsFugacityCoefficientsViewController.swift in Sources */,
+				4B21AB00206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixturePengRobinsonVaporEOSViewController.swift in Sources */,
+				4B21AB08206F423000997C6C /* ThermodynamicsFugacityPureComponentMixtureSoaveRedlichKwongVaporEOSViewController.swift in Sources */,
+				4BCE16AF21D6ED0A007BBF78 /* calcOperatorDelegate.swift in Sources */,
+				4B46D4FD20662FAC001FB9D3 /* SearchVariablesThermodynamicsViewController.swift in Sources */,
+				4B66BF4C209AF9F900EEB676 /* ElectricalEngineeringGeneralEquationsResistanceViewController.swift in Sources */,
+				4BAAED2720C4B98B00051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORrateConstantViewController.swift in Sources */,
+				4BA1CC042067A25C0040C4E0 /* SearchVariablesFluidMechanicsFlowInPackedBedsDiameterViewController.swift in Sources */,
+				4BE644B4206B20A10028B863 /* ThermodynamicsFugacityThreeComponentMixtureRedlichKwongVaporEOSViewController.swift in Sources */,
+				4B5DA54D2099A66200380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesReactionRateAtTemperatureFinalArrheniusViewController.swift in Sources */,
+				4B426414206753D200570B47 /* SearchVariablesFluidMechanicsRectangularPipeViewController.swift in Sources */,
+				4B21AB03206E234A00997C6C /* ThermodynamicsFugacityTwoComponentMixtureRedlichKwongVaporEOSViewController.swift in Sources */,
+				4BCE16B321D6ED0A007BBF78 /* instantiatedMagentaViewController.swift in Sources */,
+				4B4264052067524400570B47 /* SearchVariablesFluidMechanicsViewController.swift in Sources */,
+				4B66BF3E209AD2EC00EEB676 /* ElectricalEngineeringGeneralEquationsCapacitanceViewController.swift in Sources */,
+				EA11B29D1FCB07F500B94CF6 /* SWRevealViewController.m in Sources */,
+				4B66BF58209BC80F00EEB676 /* SearchEngineeringDisciplineMechanicalGeneralEquationsViewController.swift in Sources */,
+				4BAAED2920C4C0FC00051653 /* ChemicalEngineeringReactorDesignCSTRNONIsothermalNONIsobaricAnyPhaseSolveFORVolumetricFlowRateViewController.swift in Sources */,
+				4B42642A2067765000570B47 /* SearchVariablesFluidMechanicsFlowPastASingleSphereViscosityViewController.swift in Sources */,
+				4B4264092067524400570B47 /* SearchVariablesFluidMechanicsGoToFrictionFactorLaminarViewController.swift in Sources */,
+				EA11B2A51FCB24A500B94CF6 /* FluidMechanicsRectangularPipeViewController.swift in Sources */,
+				4B21AB0A206F423100997C6C /* ThermodynamicsFugacityPureComponentMixtureTwoTermVirialVaporEOSViewController.swift in Sources */,
+				4B5DA5512099AD5900380AE7 /* SearchChemicalEngineeringReactorDesignGeneralVariablesActivationEnergyArrheniusViewController.swift in Sources */,
+				4B4264082067524400570B47 /* SearchVariablesFluidMechanicsGoToPressureDropTurbulentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA960E361FC14BE500E46F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA960E3F1FC14BE500E46F03 /* PengRobEOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA960E411FC14BE500E46F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA960E4A1FC14BE600E46F03 /* PengRobEOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA960E3C1FC14BE500E46F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA960E251FC14BE500E46F03 /* iEngineering */;
+			targetProxy = EA960E3B1FC14BE500E46F03 /* PBXContainerItemProxy */;
+		};
+		EA960E471FC14BE500E46F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA960E251FC14BE500E46F03 /* iEngineering */;
+			targetProxy = EA960E461FC14BE500E46F03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA960E321FC14BE500E46F03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA960E331FC14BE500E46F03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA960E4C1FC14BE600E46F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: t3.louisville@gmail.com (WZ94W3YBSR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"${TARGET_BUILD_DIR}/Pods_CHE_Equations.framework/**",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA960E4D1FC14BE600E46F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: t3.louisville@gmail.com (WZ94W3YBSR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"${TARGET_BUILD_DIR}/Pods_CHE_Equations.framework/**",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA960E4F1FC14BE600E46F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C919C0B9E3A9505344D9657 /* Pods-iEngineering.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27J6BVV357;
+				INFOPLIST_FILE = iEngineering/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iEngineering.iEngineering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iEngineering/iEngineering-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA960E501FC14BE600E46F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA46E93E1239B0FDF8CE4AC6 /* Pods-iEngineering.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27J6BVV357;
+				INFOPLIST_FILE = iEngineering/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iEngineering.iEngineering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iEngineering/iEngineering-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA960E521FC14BE600E46F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iEngineeringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iEngineering.iEngineeringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iEngineering.app/iEngineering";
+			};
+			name = Debug;
+		};
+		EA960E531FC14BE600E46F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iEngineeringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iEngineering.iEngineeringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iEngineering.app/iEngineering";
+			};
+			name = Release;
+		};
+		EA960E551FC14BE600E46F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = iEngineeringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iEngineering.iEngineeringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = iEngineering;
+			};
+			name = Debug;
+		};
+		EA960E561FC14BE600E46F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = iEngineeringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iEngineering.iEngineeringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = iEngineering;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA960E211FC14BE400E46F03 /* Build configuration list for PBXProject "iEngineering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA960E4C1FC14BE600E46F03 /* Debug */,
+				EA960E4D1FC14BE600E46F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA960E4E1FC14BE600E46F03 /* Build configuration list for PBXNativeTarget "iEngineering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA960E4F1FC14BE600E46F03 /* Debug */,
+				EA960E501FC14BE600E46F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA960E511FC14BE600E46F03 /* Build configuration list for PBXNativeTarget "iEngineeringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA960E521FC14BE600E46F03 /* Debug */,
+				EA960E531FC14BE600E46F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA960E541FC14BE600E46F03 /* Build configuration list for PBXNativeTarget "iEngineeringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA960E551FC14BE600E46F03 /* Debug */,
+				EA960E561FC14BE600E46F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA960E1E1FC14BE400E46F03 /* Project object */;
+}
